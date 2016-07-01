@@ -26,14 +26,13 @@
     color: var(--light-grey);
   
     /** Needed for animated hover effect */
-    vertical-align: middle;
     transition-duration: 0.3s;
     transition-property: transform;
     transition-timing-function: ease-out;
     display: inline-block;
 
     &:hover {
-      transform: translateY(-8px);
+      transform: translateY(-16px);
     }
   }
 }

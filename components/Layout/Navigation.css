@@ -27,13 +27,13 @@
     text-shadow: 0px 0px 5px var(--black-blue);
 
     /** Needed for drop animation on hover */
-    vertical-align: middle;
     transition-duration: 0.3s;
     transition-property: transform;
     transition-timing-function: ease-out;
     display: inline-block;
     position: relative;
     overflow: hidden;
+    vertical-align: middle;
 
     /** Needed for line animation on hover */
     &:before {

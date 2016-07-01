@@ -11,15 +11,67 @@
   max-width: var(--max-page-width);
   margin: 0 auto;
 
-  @media (width <= 960px) {
+  /** Picking 1080 here because otherwise there'd be no padding at 961px widths */
+  @media (width <= 1040px) {
     margin: 0 var(--page-side-padding);
   }
 
-  @media (width <=500px) {
+  @media (width <= 500px) {
     margin: 0 var(--page-side-padding-small);
   }
 
   & h1 {
-    
+    display: table;
+    padding: 10px 20px;
+    background: var(--yellow);
+    text-transform: uppercase;
+    font-size: var(--h1);
+
+    @media (width <= 500px) {
+      padding: 5px 10px;
+      font-size: var(--h3);
+    }
+  }
+
+  & p {
+    line-height: 1.5em;
+
+    & a {
+      color: var(--blue);
+      background: transparent;
+      text-decoration: none;
+
+      /** Needed for color animation on hover */
+      transition-duration: 0.3s;
+      transition-property: background, color;
+      transition-timing-function: ease-out;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      vertical-align: middle;
+
+      &:before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          bottom: 0;
+          background: var(--black-blue);
+          height: 2px;
+          transition-property: left right;
+          transition-duration: 0.3s;
+          transition-timing-function: ease-out;
+      }
+
+      &:hover, &:focus, &:active {
+        color: var(--dark-blue);
+        background: var(--yellow);
+
+        &:before {
+          left: 0;
+          right: 0;
+        }
+      }
+    }
   }
 }

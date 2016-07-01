@@ -10,23 +10,16 @@
 
 import React from 'react';
 import IndexLayout from '../../components/Layout/IndexLayout';
-import { title, html } from './index.md';
+import { html } from './index.md';
 
 class HomePage extends React.Component {
-
-  componentDidMount() {
-    document.title = title;
-  }
-
   render() {
     return (
       <IndexLayout>
-        <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </IndexLayout>
     );
   }
-
 }
 
 export default HomePage;
