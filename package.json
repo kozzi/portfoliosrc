@@ -103,6 +103,6 @@
     "publish": "node run publish",
     "publish:debug": "node run publish --debug",
     "start": "node run",
-    "start:prod": "http-server"
+    "start:prod": "npm run build && http-server"
   }
 }
