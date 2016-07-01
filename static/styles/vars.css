@@ -1,0 +1,16 @@
+:root {
+  --page-side-padding: 80px;
+  --page-side-padding-small: 20px;
+  --page-top-padding: 20px;
+  --max-page-width: 960px;
+
+  --h1: 46px;
+  --h2: 34px;
+  --h3: 24px;
+  --h4: 20px;
+  --h5: 16px;
+
+  --tiny-text: 14px;
+
+  --gutter-width: 8px;
+}

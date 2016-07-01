@@ -1,0 +1,11 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.header {
+/*  background: var(--light-grey);*/
+  width: 100%;
+  height: var(--page-side-padding);
+
+  /** Forces the height to fit all children */
+  overflow: hidden;
+}

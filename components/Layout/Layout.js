@@ -1,39 +1,24 @@
-/**
- * React Static Boilerplate
- * https://github.com/kriasoft/react-static-boilerplate
- *
- * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react';
 import Header from './Header';
-import Navigation from './Navigation';
+import MainContent from './MainContent';
+import '../../static/styles/base.css';
 import s from './Layout.css';
+import heroImage from './hero-30.jpg';
 
 class Layout extends React.Component {
-
-  componentDidMount() {
-    window.componentHandler.upgradeElement(this.refs.root);
-  }
-
-  componentWillUnmount() {
-    window.componentHandler.downgradeElements(this.refs.root);
-  }
-
   render() {
+    // For some reason, background images only work if I set them
+    // inline. Setting this in the stylesheet (./Hero.css) didn't work
+    let heroBackgroundInlineCSS = {
+      backgroundImage: "url(" + heroImage + ")"
+    };
+
     return (
-      <div className="mdl-layout mdl-js-layout" ref="root">
-        <div className="mdl-layout__inner-container">
-          <Header>
-            <span className="mdl-layout-title">React Static Boilerplate</span>
-            <div className="mdl-layout-spacer"></div>
-            <Navigation />
-          </Header>
-          <main {...this.props} className={s.content} />
-        </div>
+      <div className={s.container} style={heroBackgroundInlineCSS}>
+        <Header />
+        <MainContent>
+          {this.props.children}
+        </MainContent>
       </div>
     );
   }

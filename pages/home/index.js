@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import Layout from '../../components/Layout';
+import IndexLayout from '../../components/Layout/IndexLayout';
 import { title, html } from './index.md';
 
 class HomePage extends React.Component {
@@ -20,10 +20,10 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <IndexLayout>
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-      </Layout>
+      </IndexLayout>
     );
   }
 

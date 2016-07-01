@@ -1,0 +1,61 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.nav {
+  margin: var(--page-top-padding) var(--page-side-padding);
+  text-align: right;
+
+  @media (width <= 960px) {
+    margin: var(--page-side-padding-small);
+  }
+
+  & ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  & li {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Playfair Display', serif;
+    text-transform: lowercase;
+  }
+  
+  & a {
+    color: var(--light-grey);
+    text-decoration: none;
+    text-shadow: 0px 0px 5px var(--black-blue);
+
+    /** Needed for drop animation on hover */
+    vertical-align: middle;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+    /** Needed for line animation on hover */
+    &:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      background: var(--yellow);
+      height: 2px;
+      transition-property: left right;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+
+    &:hover, &:focus, &:active {
+      transform: translateY(8px);
+
+      &:before {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}

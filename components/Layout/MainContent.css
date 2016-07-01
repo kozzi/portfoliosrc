@@ -1,0 +1,25 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.container {
+  width: 100%;
+  background: var(--light-grey);
+  padding: var(--page-top-padding) 0;
+}
+
+.content {
+  max-width: var(--max-page-width);
+  margin: 0 auto;
+
+  @media (width <= 960px) {
+    margin: 0 var(--page-side-padding);
+  }
+
+  @media (width <=500px) {
+    margin: 0 var(--page-side-padding-small);
+  }
+
+  & h1 {
+    
+  }
+}

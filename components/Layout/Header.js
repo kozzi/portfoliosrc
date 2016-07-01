@@ -9,21 +9,16 @@
  */
 
 import React from 'react';
+import Logo from './Logo';
+import Navigation from './Navigation';
+import s from './Header.css';
 
 class Header extends React.Component {
-
-  componentDidMount() {
-    window.componentHandler.upgradeElement(this.refs.root);
-  }
-
-  componentWillUnmount() {
-    window.componentHandler.downgradeElements(this.refs.root);
-  }
-
   render() {
     return (
-      <header className="mdl-layout__header" ref="root">
-        <div className="mdl-layout__header-row" {...this.props} />
+      <header className={s.header}>
+        <Logo />
+        <Navigation />
       </header>
     );
   }

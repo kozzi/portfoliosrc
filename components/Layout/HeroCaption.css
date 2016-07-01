@@ -1,0 +1,39 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.caption {
+  color: var(--light-grey);
+  font-size: var(--tiny-text);
+  font-weight: lighter;
+  text-align: center;
+  opacity: 0.6;
+  position: fixed;
+  top: 60%;
+  right: 20px;
+  width: 80px;
+
+  @media (width <= 768px) {
+    top: 50%;
+  }
+
+  @media (width <= 500px) {
+    top: 40%;
+    right: 8px;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--light-grey);
+  
+    /** Needed for animated hover effect */
+    vertical-align: middle;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    display: inline-block;
+
+    &:hover {
+      transform: translateY(-8px);
+    }
+  }
+}
