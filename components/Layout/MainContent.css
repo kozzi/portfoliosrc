@@ -29,7 +29,7 @@
 
     @media (width <= 500px) {
       padding: 5px 10px;
-      font-size: var(--h3);
+      font-size: var(--h2);
     }
   }
 
@@ -38,7 +38,7 @@
 
     & a {
       color: var(--blue);
-      background: transparent;
+      font-weight: bold;
       text-decoration: none;
 
       /** Needed for color animation on hover */
@@ -51,16 +51,16 @@
       vertical-align: middle;
 
       &:before {
-          content: "";
-          position: absolute;
-          left: 50%;
-          right: 50%;
-          bottom: 0;
-          background: var(--black-blue);
-          height: 2px;
-          transition-property: left right;
-          transition-duration: 0.3s;
-          transition-timing-function: ease-out;
+        content: "";
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        background: var(--black-blue);
+        height: 2px;
+        transition-property: left right;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
       }
 
       &:hover, &:focus, &:active {

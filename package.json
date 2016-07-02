@@ -10,10 +10,12 @@
     "babel-polyfill": "^6.9.1",
     "fastclick": "^1.0.6",
     "history": "^3.0.0",
+    "jquery": "^3.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
+    "waypoints": "^4.0.0",
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {

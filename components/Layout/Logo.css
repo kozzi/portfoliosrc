@@ -4,13 +4,15 @@
 .logo {
   width: 80px;
   height: 80px;
-  padding: var(--page-top-padding) var(--page-top-padding);
+  padding: 0;
+  margin: var(--page-top-padding);
   position: fixed;
-  color: var(--light-grey);
-  font-size: 50px;
+  opacity: 100;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
 
   & a {
     text-decoration: none;
-    color: var(--light-grey);
   }
 }

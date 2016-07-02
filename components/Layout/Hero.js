@@ -9,7 +9,7 @@ class Hero extends React.Component {
         <h1>Charing</h1>
 
         <div className={s.tagline}>
-          <p>I design & code stuff. I climb mountains for fun.</p>
+          <p>I design & code. I climb mountains for fun.</p>
           <p>Hello from Toronto Canada, eh &hearts;</p>
         </div>
       </div>
