@@ -31,12 +31,13 @@ class IndexLayout extends React.Component {
     this.scrollMagicController = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({triggerElement: "main", triggerHook: 0})
-      .addTo(this.scrollMagicController)
       .on("enter", this.handleScrollDown.bind(this))
-      .on("leave", this.handleScrollUp.bind(this));
+      .on("leave", this.handleScrollUp.bind(this))
+      .addTo(this.scrollMagicController);
   }
   componentWillUnmount() {
     this.scrollMagicController.destroy();
+    this.scrollMagicController = null;
   }
   handleScrollDown() {
     this.setState({pageScrolledDown: true});

@@ -50,7 +50,7 @@
     }
 
     &:hover, &:focus, &:active {
-      transform: translateY(8px);
+      transform: translateY(4px);
 
       &:before {
         left: 0;
