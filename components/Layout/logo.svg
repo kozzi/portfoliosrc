@@ -3,9 +3,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E5EBF0;}
-</style>
 <g id="mountains">
 	<path class="st0" d="M75,69.4L63.7,49.6L52.4,29.9c-1.2-2-4-2-5.2,0L35.9,49.6l-2.9,5l-6.2-10.8c-1.2-2-4-2-5.2,0l-7.3,12.7
 		L6.9,69.4c-1.2,2,0.3,4.6,2.6,4.6h14.7h3h11.7h11h22.6C74.7,74,76.2,71.4,75,69.4z"/>
