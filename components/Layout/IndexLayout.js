@@ -9,6 +9,7 @@
  */
 
 import React from 'react';
+import ScrollMagic from 'scrollmagic';
 import Header from './Header';
 import Hero from './Hero';
 import HeroCaption from './HeroCaption';
@@ -17,7 +18,32 @@ import '../../static/styles/base.css';
 import s from './IndexLayout.css';
 import heroImage from './hero-30.jpg';
 
+
 class IndexLayout extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      pageScrolledDown: false
+    };
+    this.scrollMagicController = null;
+  }
+  componentDidMount() {
+    this.scrollMagicController = new ScrollMagic.Controller();
+
+    new ScrollMagic.Scene({triggerElement: "main", triggerHook: 0})
+      .addTo(this.scrollMagicController)
+      .on("enter", this.handleScrollDown.bind(this))
+      .on("leave", this.handleScrollUp.bind(this));
+  }
+  componentWillUnmount() {
+    this.scrollMagicController.destroy();
+  }
+  handleScrollDown() {
+    this.setState({pageScrolledDown: true});
+  }
+  handleScrollUp() {
+    this.setState({pageScrolledDown: false});
+  }
   render() {
     // For some reason, background images only work if I set them 
     // inline. Setting this in the stylesheet (./Hero.css) didn't work
@@ -27,7 +53,7 @@ class IndexLayout extends React.Component {
 
     return (
       <div className={s.container} style={heroBackgroundInlineCSS}>
-        <Header />
+        <Header pageScrolledDown={this.state.pageScrolledDown} />
         <Hero />
         <HeroCaption />
         <MainContent>

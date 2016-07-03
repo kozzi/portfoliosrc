@@ -15,14 +15,21 @@ import s from './Header.css';
 
 class Header extends React.Component {
   render() {
+    let fillLight = !this.props.pageScrolledDown;
     return (
       <header className={s.header}>
-        <Logo />
+        <Logo fillLight={fillLight} />
         <Navigation />
       </header>
     );
   }
-
 }
+
+Header.propTypes = {
+  pageScrolledDown: React.PropTypes.bool.isRequired
+};
+Header.defaultProps = {
+  pageScrolledDown: false
+};
 
 export default Header;

@@ -15,7 +15,7 @@
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
-    "waypoints": "^4.0.0",
+    "scrollmagic": "^2.0.5",
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {

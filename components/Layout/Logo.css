@@ -14,17 +14,20 @@
     & svg {
       width: 80px;
       height: 80px;
-      transition-duration: 0.3s;
-      transition-property: fill;
-      transition-timing-function: ease-out;
     }
   }
 }
 
 .fillDark {
+  transition-duration: 0.3s;
+  transition-property: fill;
+  transition-timing-function: ease-out;
   fill: var(--blue);
 }
 
 .fillLight {
+  transition-duration: 0.3s;
+  transition-property: fill;
+  transition-timing-function: ease-out;
   fill: var(--light-grey);
 }
