@@ -17,7 +17,6 @@
   & li {
     display: inline-block;
     margin-left: 30px;
-    font-family: 'Playfair Display', serif;
     text-transform: lowercase;
   }
   

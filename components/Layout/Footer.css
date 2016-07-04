@@ -1,3 +1,4 @@
+@import '../../static/styles/colours.css';
 @import '../../static/styles/vars.css';
 
 .container {
@@ -13,8 +14,89 @@
 .content {
   max-width: var(--max-page-width);
   margin: auto;
+  font-size: .7em;
+  color: var(--black-blue);
+
+  /** Forces the height of the div to be as large as children content */
+  overflow: hidden;
+
+  @media (width <= 960px) {
+    text-align: center;
+  }
+
+  /** Animate hover feedback on links */
+  & p a {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: none;
+
+    /** Needed for color animation on hover */
+    transition-duration: 0.3s;
+    transition-property: background, color;
+    transition-timing-function: ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      background: var(--dark-blue);
+      height: 2px;
+      transition-property: left right;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+
+    &:hover, &:focus, &:active {
+      background: var(--yellow);
+      color: var(--dark-blue);
+
+      &:before {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
 }
 
 .socialLinks {
-  
+  float: right;
+
+  @media (width <= 960px) {
+    padding: 0;
+    float: none;
+    text-align: center;
+  }
+
+  & li {
+    display: inline-block;
+
+    & a {
+      font-size: var(--h2);
+      color: var(--blue-grey);
+      padding: 10px;
+      transition-duration: 0.3s;
+      transition-property: color;
+      transition-timing-function: ease-out;
+
+      &:hover {
+        color: var(--blue);
+      }
+    }
+  }
+}
+
+.copyright {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.madeWith {
+
 }

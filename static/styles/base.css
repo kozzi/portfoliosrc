@@ -12,7 +12,6 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-  font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* Highlight colours
