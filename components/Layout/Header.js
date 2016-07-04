@@ -18,7 +18,7 @@ class Header extends React.Component {
     return (
       <header className={s.header}>
         <Logo {...this.props} />
-        <Navigation />
+        <Navigation {...this.props} />
       </header>
     );
   }
