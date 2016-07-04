@@ -5,7 +5,7 @@
   width: var(--page-side-padding);
   height: var(--page-side-padding);
   padding: 0;
-  margin: 10px;
+  margin: 10px 0;
   position: fixed;
   text-align: center;
 
