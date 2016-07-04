@@ -1,4 +1,5 @@
 import React from 'react';
+import hover from 'hover.css/css/hover.css';
 import Link from '../Link';
 import s from './Logo.css';
 import logo from './logo.svg';
@@ -9,7 +10,7 @@ class Logo extends React.Component {
 
     return (
       <div className={s.logoContainer}>
-        <Link to="/">
+        <Link to="/" className={hover['hvr-float-shadow']}>
           <svg version="1.1" x="0px" y="0px"
             viewBox="0 0 80 80">
             <g id="mountains">

@@ -7,8 +7,8 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-
 import React from 'react';
+import hover from 'hover.css/css/hover.css';
 import Link from '../Link';
 import s from './Navigation.css';
 
@@ -17,9 +17,9 @@ class Navigation extends React.Component {
     return (
       <nav className={s.nav}>
         <ul>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/work">Work</Link></li>
-          <li><Link to="/Contact">Contact</Link></li>
+          <li><Link to="/about" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>About</Link></li>
+          <li><Link to="/work" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>Work</Link></li>
+          <li><Link to="/Contact" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>Contact</Link></li>
         </ul>
       </nav>
     );

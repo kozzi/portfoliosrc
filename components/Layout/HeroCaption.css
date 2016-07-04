@@ -25,13 +25,8 @@
     text-decoration: none;
     color: var(--light-grey);
   
-    /** Needed for animated hover effect */
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-    display: inline-block;
-
-    &:hover {
+    /** Override hover.css to make it translate higher */
+    &:hover, &:focus, &:active {
       transform: translateY(-16px);
     }
   }

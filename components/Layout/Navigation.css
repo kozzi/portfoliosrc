@@ -26,36 +26,15 @@
     text-decoration: none;
     text-shadow: 0px 0px 5px var(--black-blue);
 
-    /** Needed for drop animation on hover */
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    vertical-align: middle;
-
-    /** Needed for line animation on hover */
-    &:before {
-      content: "";
-      position: absolute;
-      left: 50%;
-      right: 50%;
-      bottom: 0;
-      background: var(--yellow);
-      height: 2px;
-      transition-property: left right;
-      transition-duration: 0.3s;
-      transition-timing-function: ease-out;
-    }
-
+    /** Override hover.css to make it translate less */
     &:hover, &:focus, &:active {
       transform: translateY(4px);
+    }
 
-      &:before {
-        left: 0;
-        right: 0;
-      }
+    /** Override hover.css to make the line a different color and width */
+    &:before {
+      background: var(--yellow);
+      height: 2px;
     }
   }
 }

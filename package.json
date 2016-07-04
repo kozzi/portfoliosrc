@@ -10,6 +10,7 @@
     "babel-polyfill": "^6.9.1",
     "fastclick": "^1.0.6",
     "history": "^3.0.0",
+    "hover.css": "^2.0.2",
     "jquery": "^3.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
