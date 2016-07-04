@@ -10,9 +10,7 @@
 
 import React from 'react';
 import ScrollMagic from 'scrollmagic';
-import Header from './Header';
 import Hero from './Hero';
-import HeroCaption from './HeroCaption';
 import MainContent from './MainContent';
 import '../../static/styles/base.css';
 import s from './IndexLayout.css';
@@ -54,9 +52,7 @@ class IndexLayout extends React.Component {
 
     return (
       <div className={s.container} style={heroBackgroundInlineCSS}>
-        <Header pageScrolledDown={this.state.pageScrolledDown} />
-        <Hero />
-        <HeroCaption />
+        <Hero pageScrolledDown={this.state.pageScrolledDown} />
         <MainContent>
           {this.props.children}
         </MainContent>
