@@ -5,11 +5,11 @@
   width: 80px;
   height: 80px;
   padding: 0;
-  margin: 20px;
+  margin: 10px;
   position: fixed;
 
   @media (width <= 1120px) {
-    margin: 10px;
+    margin: 10px 0;
   }
 
   @media (width <= 500px) {
