@@ -3,7 +3,7 @@
 
 .header {
   width: 100%;
-  height: var(--page-side-padding);
+  height: 90px;
 
   /** Forces the height to fit all children */
   overflow: hidden;
