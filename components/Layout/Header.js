@@ -15,10 +15,10 @@ import s from './Header.css';
 
 class Header extends React.Component {
   render() {
-    let fillLight = !this.props.pageScrolledDown;
+    let useLightFill = this.props.useLightFillinHeader;
     return (
       <header className={s.header}>
-        <Logo fillLight={fillLight} />
+        <Logo useLightFill={useLightFill} />
         <Navigation />
       </header>
     );
@@ -26,10 +26,10 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
-  pageScrolledDown: React.PropTypes.bool.isRequired
+  useLightFillinHeader: React.PropTypes.bool.isRequired
 };
 Header.defaultProps = {
-  pageScrolledDown: false
+  useLightFillinHeader: false
 };
 
 export default Header;

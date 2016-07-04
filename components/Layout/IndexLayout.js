@@ -42,9 +42,10 @@ class IndexLayout extends React.Component {
     this.setState({pageScrolledDown: false});
   }
   render() {
+    let useLightFillinHeader = !this.state.pageScrolledDown;
     return (
       <div className={s.container}>
-        <Hero pageScrolledDown={this.state.pageScrolledDown} />
+        <Hero useLightFillinHeader={useLightFillinHeader} />
         <MainContent>
           {this.props.children}
         </MainContent>

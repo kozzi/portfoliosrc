@@ -6,7 +6,7 @@ import logo from './logo.svg';
 
 class Logo extends React.Component {
   render() {
-    let fillClass = this.props.fillLight ? s.fillLight : s.fillDark;
+    let fillClass = this.props.useLightFill ? s.fillLight : s.fillDark;
 
     return (
       <div className={s.logoContainer}>
@@ -30,10 +30,10 @@ class Logo extends React.Component {
 }
 
 Logo.propTypes = {
-  fillLight: React.PropTypes.bool.isRequired
+  useLightFill: React.PropTypes.bool.isRequired
 };
 Logo.defaultProps = {
-  fillLight: true
+  useLightFill: true
 };
 
 export default Logo;
