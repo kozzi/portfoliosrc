@@ -14,8 +14,6 @@ import Hero from './Hero';
 import MainContent from './MainContent';
 import '../../static/styles/base.css';
 import s from './IndexLayout.css';
-import heroImage from './hero-30.jpg';
-
 
 class IndexLayout extends React.Component {
   constructor() {
@@ -44,14 +42,8 @@ class IndexLayout extends React.Component {
     this.setState({pageScrolledDown: false});
   }
   render() {
-    // For some reason, background images only work if I set them 
-    // inline. Setting this in the stylesheet (./Hero.css) didn't work
-    let heroBackgroundInlineCSS = {
-      backgroundImage: "url(" + heroImage + ")"
-    };
-
     return (
-      <div className={s.container} style={heroBackgroundInlineCSS}>
+      <div className={s.container}>
         <Hero pageScrolledDown={this.state.pageScrolledDown} />
         <MainContent>
           {this.props.children}
