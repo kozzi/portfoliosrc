@@ -4,21 +4,17 @@
 .container {
   width: 100%;
   background: var(--light-grey);
-  padding: var(--page-top-padding) 0;
+  padding: var(--page-side-padding);
+  padding-top: var(--page-side-padding-small);
+
+  @media (width <= 500px) {
+    padding: var(--page-side-padding-small);
+  }
 }
 
 .content {
   max-width: var(--max-page-width);
   margin: 0 auto;
-
-  /** Picking 1120 here because otherwise there'd be no padding at 961px widths */
-  @media (width <= 1120px) {
-    margin: 0 var(--page-side-padding);
-  }
-
-  @media (width <= 500px) {
-    margin: 0 var(--page-side-padding-small);
-  }
 
   & h1 {
     display: table;

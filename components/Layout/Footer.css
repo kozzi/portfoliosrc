@@ -1,0 +1,20 @@
+@import '../../static/styles/vars.css';
+
+.container {
+  width: 100%;
+  background: #fff;
+  padding: var(--page-side-padding);
+
+  @media (width <= 500px) {
+    padding: var(--page-side-padding-small);
+  }
+}
+
+.content {
+  max-width: var(--max-page-width);
+  margin: auto;
+}
+
+.socialLinks {
+  
+}

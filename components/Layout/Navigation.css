@@ -2,7 +2,7 @@
 @import '../../static/styles/vars.css';
 
 .nav {
-  margin: var(--page-top-padding) var(--page-side-padding);
+  margin: var(--page-top-padding);
   text-align: right;
 
   @media (width <= 960px) {

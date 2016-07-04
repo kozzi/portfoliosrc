@@ -12,6 +12,7 @@ import React from 'react';
 import ScrollMagic from 'scrollmagic';
 import Hero from './Hero';
 import MainContent from './MainContent';
+import Footer from './Footer';
 import '../../static/styles/base.css';
 import s from './IndexLayout.css';
 
@@ -51,6 +52,7 @@ class IndexLayout extends React.Component {
         <MainContent>
           {this.props.children}
         </MainContent>
+        <Footer />
       </div>
     );
   }
