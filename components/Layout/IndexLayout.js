@@ -45,7 +45,7 @@ class IndexLayout extends React.Component {
     let useLightFillinHeader = !this.state.pageScrolledDown;
     return (
       <div className={s.container}>
-        <Hero useLightFillinHeader={useLightFillinHeader} />
+        <Hero useLightFill={useLightFillinHeader} />
         <MainContent>
           {this.props.children}
         </MainContent>

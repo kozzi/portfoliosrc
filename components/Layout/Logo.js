@@ -5,6 +5,14 @@ import s from './Logo.css';
 import logo from './logo.svg';
 
 class Logo extends React.Component {
+  static propTypes = {
+    useLightFill: React.PropTypes.bool.isRequired
+  };
+
+  static defaultProps = {
+    useLightFill: true
+  };
+
   render() {
     let fillClass = this.props.useLightFill ? s.fillLight : s.fillDark;
 
@@ -28,12 +36,5 @@ class Logo extends React.Component {
     );
   }
 }
-
-Logo.propTypes = {
-  useLightFill: React.PropTypes.bool.isRequired
-};
-Logo.defaultProps = {
-  useLightFill: true
-};
 
 export default Logo;

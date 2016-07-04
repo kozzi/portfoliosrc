@@ -15,21 +15,13 @@ import s from './Header.css';
 
 class Header extends React.Component {
   render() {
-    let useLightFill = this.props.useLightFillinHeader;
     return (
       <header className={s.header}>
-        <Logo useLightFill={useLightFill} />
+        <Logo {...this.props} />
         <Navigation />
       </header>
     );
   }
 }
-
-Header.propTypes = {
-  useLightFillinHeader: React.PropTypes.bool.isRequired
-};
-Header.defaultProps = {
-  useLightFillinHeader: false
-};
 
 export default Header;
