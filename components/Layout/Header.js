@@ -12,15 +12,10 @@ import Logo from './Logo';
 import Navigation from './Navigation';
 import s from './Header.css';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <header className={s.header}>
-        <Logo {...this.props} />
-        <Navigation {...this.props} />
-      </header>
-    );
-  }
-}
+const Header = (props) =>
+  <header className={s.header}>
+    <Logo {...props} />
+    <Navigation {...props} />
+  </header>;
 
 export default Header;

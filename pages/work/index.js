@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 
-const title = "Work";
+const title = 'Work';
 
 class WorkPage extends React.Component {
 

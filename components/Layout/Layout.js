@@ -5,18 +5,18 @@ import Footer from './Footer';
 import '../../static/styles/base.css';
 import s from './Layout.css';
 
-class Layout extends React.Component {
-  render() {
-    return (
-      <div className={s.container}>
-        <Header useLightFill={false} />
-        <MainContent>
-          {this.props.children}
-        </MainContent>
-        <Footer />
-      </div>
-    );
-  }
-}
+const Layout = (props) =>
+  <div className={s.container}>
+    <Header useLightFill={false} />
+    <MainContent>
+      {props.children}
+    </MainContent>
+    <Footer />
+  </div>
+;
+
+Layout.propTypes = {
+  children: React.PropTypes.node,
+};
 
 export default Layout;

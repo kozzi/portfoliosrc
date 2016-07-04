@@ -14,20 +14,20 @@ import s from './Navigation.css';
 
 class Navigation extends React.Component {
   static propTypes = {
-    useLightFill: React.PropTypes.bool.isRequired
+    useLightFill: React.PropTypes.bool.isRequired,
   };
 
   static defaultProps = {
-    useLightFill: true
+    useLightFill: true,
   };
 
   render() {
-    let fillClass = this.props.useLightFill ? s.light : s.dark;
+    const fillClass = this.props.useLightFill ? s.light : s.dark;
 
-    let linkClass = [
+    const linkClass = [
       fillClass,
-      hover['hvr-underline-from-center']
-      ].join(" ");
+      hover['hvr-underline-from-center'],
+    ].join(' ');
 
     return (
       <nav className={s.nav}>

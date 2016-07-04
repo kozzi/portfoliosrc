@@ -12,14 +12,10 @@ import React from 'react';
 import IndexLayout from '../../components/Layout/IndexLayout';
 import { html } from './index.md';
 
-class HomePage extends React.Component {
-  render() {
-    return (
-      <IndexLayout>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </IndexLayout>
-    );
-  }
-}
+const HomePage = () =>
+  <IndexLayout>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
+  </IndexLayout>
+;
 
 export default HomePage;

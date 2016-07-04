@@ -19,13 +19,13 @@
     margin-left: 30px;
     text-transform: lowercase;
   }
-  
+
   & a {
     text-decoration: none;
     padding: 10px;
 
     /** Override hover.css to make the line a different color and width */
-    &:before {
+    &::before {
       height: 2px;
     }
   }
@@ -33,9 +33,9 @@
 
 .light {
   color: var(--light-grey);
-  text-shadow: 0px 0px 5px var(--black-blue);
+  text-shadow: 0 0 5px var(--black-blue);
 
-  &:before {
+  &::before {
     background: var(--yellow);
   }
 }
@@ -48,7 +48,7 @@
     background: var(--yellow);
   }
 
-  &:before {
+  &::before {
     background: var(--dark-blue);
   }
 }

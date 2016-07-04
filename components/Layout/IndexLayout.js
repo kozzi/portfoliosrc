@@ -14,40 +14,43 @@ import Hero from './Hero';
 import MainContent from './MainContent';
 import Footer from './Footer';
 import '../../static/styles/base.css';
-import s from './IndexLayout.css';
 
 class IndexLayout extends React.Component {
+  static propTypes = {
+    children: React.PropTypes.node,
+  };
+
   constructor() {
     super();
     this.state = {
-      pageScrolledDown: false
+      pageScrolledDown: false,
     };
     this.scrollMagicController = null;
   }
   componentDidMount() {
     this.scrollMagicController = new ScrollMagic.Controller();
 
-    new ScrollMagic.Scene({triggerElement: "main", triggerHook: 0})
-      .on("enter", this.handleScrollDown.bind(this))
-      .on("leave", this.handleScrollUp.bind(this))
+    new ScrollMagic.Scene({ triggerElement: 'main', triggerHook: 0 })
+      .on('enter', this.handleScrollDown.bind(this))
+      .on('leave', this.handleScrollUp.bind(this))
       .addTo(this.scrollMagicController);
   }
   componentWillUnmount() {
     this.scrollMagicController.destroy();
     this.scrollMagicController = null;
   }
-  handleScrollDown() {
-    this.setState({pageScrolledDown: true});
-  }
-  handleScrollUp() {
-    this.setState({pageScrolledDown: false});
-  }
   getUseLightFill() {
     return !this.state.pageScrolledDown;
   }
+  handleScrollDown() {
+    this.setState({ pageScrolledDown: true });
+  }
+  handleScrollUp() {
+    this.setState({ pageScrolledDown: false });
+  }
   render() {
     return (
-      <div className={s.container}>
+      <div>
         <Hero useLightFill={this.getUseLightFill()} />
         <MainContent>
           {this.props.children}

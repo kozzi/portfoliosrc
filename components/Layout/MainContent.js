@@ -1,16 +1,16 @@
 import React from 'react';
 import s from './MainContent.css';
 
-class MainContent extends React.Component {
-  render() {
-    return (
-      <main className={s.container}>
-        <div className={s.content}>
-          {this.props.children}
-        </div>
-      </main>
-    );
-  }
-}
+const MainContent = (props) =>
+  <main className={s.container}>
+    <div className={s.content}>
+      {props.children}
+    </div>
+  </main>
+;
+
+MainContent.propTypes = {
+  children: React.PropTypes.node,
+};
 
 export default MainContent;
