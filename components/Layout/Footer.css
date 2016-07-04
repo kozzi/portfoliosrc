@@ -95,6 +95,10 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+
+  @media (width <= 500px) {
+    letter-spacing: 0;
+  }
 }
 
 .madeWith {
