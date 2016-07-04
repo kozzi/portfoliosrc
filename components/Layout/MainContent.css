@@ -56,7 +56,7 @@
         left: 50%;
         right: 50%;
         bottom: 0;
-        background: var(--black-blue);
+        background: var(--dark-blue);
         height: 2px;
         transition-property: left right;
         transition-duration: 0.3s;

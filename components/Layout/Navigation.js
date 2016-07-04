@@ -17,9 +17,9 @@ class Navigation extends React.Component {
     return (
       <nav className={s.nav}>
         <ul>
-          <li><Link to="/about" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>About</Link></li>
-          <li><Link to="/work" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>Work</Link></li>
-          <li><Link to="/Contact" className={`${hover['hvr-sink']} ${hover['hvr-underline-from-center']}`}>Contact</Link></li>
+          <li><Link to="/about" className={hover['hvr-underline-from-center']}>About</Link></li>
+          <li><Link to="/work" className={hover['hvr-underline-from-center']}>Work</Link></li>
+          <li><Link to="/Contact" className={hover['hvr-underline-from-center']}>Contact</Link></li>
         </ul>
       </nav>
     );
