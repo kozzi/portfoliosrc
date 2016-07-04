@@ -16,13 +16,14 @@
 
   & li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
     font-family: 'Playfair Display', serif;
     text-transform: lowercase;
   }
   
   & a {
     text-decoration: none;
+    padding: 10px;
 
     /** Override hover.css to make the line a different color and width */
     &:before {
@@ -43,7 +44,12 @@
 .dark {
   color: var(--blue);
 
+  &:hover {
+    color: var(--dark-blue);
+    background: var(--yellow);
+  }
+
   &:before {
-    background: var(--blue);
+    background: var(--dark-blue);
   }
 }
