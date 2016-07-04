@@ -5,15 +5,25 @@
   width: 80px;
   height: 80px;
   padding: 0;
-  margin: var(--page-top-padding);
+  margin: 20px;
   position: fixed;
+
+  @media (width <= 1120px) {
+    margin: 10px;
+  }
 
   & a {
     text-decoration: none;
 
+    &:hover {
+      & path {
+        fill: var(--blue-grey);
+      }
+    }
+
     & svg {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
     }
   }
 }
