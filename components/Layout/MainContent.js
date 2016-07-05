@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import s from './MainContent.css';
 
 const MainContent = (props) =>
@@ -10,7 +10,7 @@ const MainContent = (props) =>
 ;
 
 MainContent.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
 };
 
 export default MainContent;

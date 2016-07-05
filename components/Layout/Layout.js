@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
 import '../../static/styles/base.css';
-import s from './Layout.css';
 
 const Layout = (props) =>
-  <div className={s.container}>
+  <div>
     <Header useLightFill={false} />
     <MainContent>
       {props.children}
@@ -16,7 +15,7 @@ const Layout = (props) =>
 ;
 
 Layout.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
 };
 
 export default Layout;

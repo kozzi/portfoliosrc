@@ -8,7 +8,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, { PropTypes } from 'react';
 import ScrollMagic from 'scrollmagic';
 import Hero from './Hero';
 import MainContent from './MainContent';
@@ -17,7 +17,7 @@ import '../../static/styles/base.css';
 
 class IndexLayout extends React.Component {
   static propTypes = {
-    children: React.PropTypes.node,
+    children: PropTypes.node,
   };
 
   constructor() {

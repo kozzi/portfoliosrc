@@ -7,39 +7,36 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-import React from 'react';
+import React, { PropTypes } from 'react';
 import hover from 'hover.css/css/hover.css';
 import Link from '../Link';
 import s from './Navigation.css';
 
-class Navigation extends React.Component {
-  static propTypes = {
-    useLightFill: React.PropTypes.bool.isRequired,
-  };
+const Navigation = (props) => {
+  const fillClass = props.useLightFill ? s.light : s.dark;
 
-  static defaultProps = {
-    useLightFill: true,
-  };
+  const linkClass = [
+    fillClass,
+    hover['hvr-underline-from-center'],
+  ].join(' ');
 
-  render() {
-    const fillClass = this.props.useLightFill ? s.light : s.dark;
+  return (
+    <nav className={s.nav}>
+      <ul>
+        <li><Link to="/about" className={linkClass}>About</Link></li>
+        <li><Link to="/work" className={linkClass}>Work</Link></li>
+        <li><Link to="/Contact" className={linkClass}>Contact</Link></li>
+      </ul>
+    </nav>
+  );
+};
 
-    const linkClass = [
-      fillClass,
-      hover['hvr-underline-from-center'],
-    ].join(' ');
+Navigation.propTypes = {
+  useLightFill: PropTypes.bool.isRequired,
+};
 
-    return (
-      <nav className={s.nav}>
-        <ul>
-          <li><Link to="/about" className={linkClass}>About</Link></li>
-          <li><Link to="/work" className={linkClass}>Work</Link></li>
-          <li><Link to="/Contact" className={linkClass}>Contact</Link></li>
-        </ul>
-      </nav>
-    );
-  }
-
-}
+Navigation.defaultProps = {
+  useLightFill: true,
+};
 
 export default Navigation;
