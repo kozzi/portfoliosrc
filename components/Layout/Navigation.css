@@ -5,7 +5,7 @@
   margin: var(--page-top-padding);
   text-align: right;
 
-  @media (width <= 960px) {
+  @media (width < 960px) {
     margin: var(--page-side-padding-small);
   }
 

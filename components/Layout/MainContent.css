@@ -7,7 +7,7 @@
   padding: var(--page-side-padding);
   padding-top: var(--page-side-padding-small);
 
-  @media (width <= 500px) {
+  @media (width < 500px) {
     padding: var(--page-side-padding-small);
   }
 }
@@ -23,7 +23,7 @@
     text-transform: uppercase;
     font-size: var(--h1);
 
-    @media (width <= 500px) {
+    @media (width < 500px) {
       padding: 5px 10px;
       font-size: var(--h2);
     }

@@ -6,7 +6,7 @@
   background: #fff;
   padding: var(--page-side-padding);
 
-  @media (width <= 500px) {
+  @media (width < 500px) {
     padding: var(--page-side-padding-small);
   }
 }
@@ -20,7 +20,7 @@
   /** Forces the height of the div to be as large as children content */
   overflow: hidden;
 
-  @media (width <= 960px) {
+  @media (width < 960px) {
     text-align: center;
   }
 
@@ -69,7 +69,7 @@
 .socialLinks {
   float: right;
 
-  @media (width <= 960px) {
+  @media (width < 960px) {
     padding: 0;
     float: none;
     text-align: center;
@@ -98,7 +98,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 
-  @media (width <= 500px) {
+  @media (width < 500px) {
     letter-spacing: 0;
   }
 }

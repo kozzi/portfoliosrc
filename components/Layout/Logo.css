@@ -9,7 +9,7 @@
   position: fixed;
   text-align: center;
 
-  @media (width <= 500px) {
+  @media (width < 500px) {
     display: none;
   }
 
