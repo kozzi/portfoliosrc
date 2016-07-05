@@ -1,16 +1,19 @@
-# React Static Boilerplate
+# React Static Boilerplate &nbsp; [![Build Status](http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/kriasoft/react-static-boilerplate) [![To-do](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/to-do.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate) [![Online Chat](http://img.shields.io/badge/chat_room-%23react--static--boilerplate-blue.svg?style=flat-square)](https://gitter.im/kriasoft/react-static-boilerplate)
 
-[![NPM version](http://img.shields.io/npm/v/generator-react-static.svg?style=flat-square)](https://www.npmjs.com/package/generator-react-static)
-[![NPM downloads](http://img.shields.io/npm/dm/generator-react-static.svg?style=flat-square)](https://www.npmjs.com/package/generator-react-static)
-[![Build Status](http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/kriasoft/react-static-boilerplate)
-[![Dependency Status](http://img.shields.io/david/kriasoft/react-static-boilerplate.svg?branch=master&style=flat-square)](https://david-dm.org/kriasoft/react-static-boilerplate)
-[![GitHub Issues](https://img.shields.io/github/issues/kriasoft/react-static-boilerplate.svg?style=flat-square)](https://github.com/kriasoft/react-static-boilerplate/issues?q=is:open)
-[![To-do](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/to-do.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate)
-[![In progress](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/in%20progress.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate)
-
-> Single-page application boilerplate and tooling powered by [React](http://facebook.github.io/react/)
-> and [Redux](http://redux.js.org/). It's optimized for generating a static website from React components
-> ready to be deployed to [Firebase](https://firebase.google.com/) CDN hosting.
+> [**React Static Boilerplate**](https://github.com/kriasoft/react-static-boilerplate) (RSB) is an
+> opinionated boilerplate and tooling for creating modern stand-alone web applications (aka
+> [SPA](https://en.wikipedia.org/wiki/Single-page_application)s) for a serverless architecture. RSB
+> significantly reduces cost by eliminating the need for servers such as EC2 instances because the
+> entire site can be hosted directly from CDN ([Firebase](https://www.firebase.com/), [GitHub
+> Pages](https://pages.github.com/), [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html),
+> or other similar cloud storage). Sites built with RSB cab be fully functional with REST API or
+> GraphQL calls to micro-services such as [Amazon Lambda](https://aws.amazon.com/lambda/),
+> [Azure Functions](https://azure.microsoft.com/services/functions/), or dynamic Docker endpoints
+> hosted on [DigitalOcean](https://www.digitalocean.com/?refcode=eef302dbae9f&utm_source=github&utm_medium=oss_sponsorships&utm_campaign=opencollective).
+> RSB demonstrates how to use component-based UI development approach with best of breed
+> technologies including [React](http://facebook.github.io/react/), [Redux](http://redux.js.org/),
+> [Babel](http://babeljs.io/), [Webpack](https://webpack.github.io/), [Browsersync](https://browsersync.io/),
+> [React Hot Loader](http://gaearon.github.io/react-hot-loader/) and more.
 
 **The work is being sponsored by:**
 
@@ -42,12 +45,10 @@
 &nbsp; &nbsp; ✓ Cross-device testing with [Browsersync](https://browsersync.io/) (see [`run.js#start`](run.js))<br>
 &nbsp; &nbsp; ✓ **24/7** community support on [Gitter](https://gitter.im/kriasoft/react-static-boilerplate); customization requests on [Codementor](https://www.codementor.io/koistya)<br>
 
-**Demo**: https://rsb.kriasoft.com &nbsp;|&nbsp; **Share** on
-[Twitter](https://twitter.com/koistya/status/748136479503814656),
-[Reddit](https://www.reddit.com/r/reactjs/comments/4qig4p/react_static_boilerplate_is_now_preconfigured_for/),
-[HackerNews](https://news.ycombinator.com/item?id=12007704) and
-[ProductHunt](https://www.producthunt.com/tech/react-static-boilerplate) &nbsp;|&nbsp; **Follow us** on
-[Gitter](https://gitter.im/kriasoft/react-static-boilerplate)
+**Demo**: https://rsb.kriasoft.com &nbsp;|&nbsp; **View** [docs](./docs) &nbsp;|&nbsp; **Follow us** on
+[Gitter](https://gitter.im/kriasoft/react-static-boilerplate), [Twitter](https://twitter.com/ReactStatic),
+or [ProductHunt](https://www.producthunt.com/tech/react-static-boilerplate) &nbsp;|&nbsp;
+**Send feedback** to [@koistya](https://twitter.com/koistya)
 
 
 ### Directory Layout
@@ -112,11 +113,13 @@ $ npm run test                  # Run unit tests. Or, `npm run test:watch`
 
 ### How to Deploy
 
-Update `publish` script in the [`run.js`](run.js) file with your Firebase project name, then run: 
+Update `publish` script in the [`run.js`](run.js) file with your full Firebase project name as found in your [Firebase console](https://console.firebase.google.com/). Note that this may have an additional identifier suffix than the shorter name you've provided. Then run: 
 
 ```shell
 $ node run publish              # Build and publish the website to Firebase, same as `npm run publish`
 ```
+
+The first time you publish, you will be prompted to authenticate with Google and generate an authentication token in order for the publish script to continue.
 
 ![publish](https://koistya.github.io/files/react-static-boilerplate-publish.gif)
 
