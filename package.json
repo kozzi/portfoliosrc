@@ -107,6 +107,6 @@
     "publish:debug": "node run publish --debug",
     "start": "node run",
     "start:dist": "npm run build && http-server",
-    "install:hooks": "ln -s tools/pre-commit .git/hooks/pre-commit"
+    "install:hooks": "ln -s ../../tools/pre-commit .git/hooks/pre-commit"
   }
 }
