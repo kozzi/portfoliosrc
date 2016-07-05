@@ -96,7 +96,7 @@
   },
   "scripts": {
     "eslint": "eslint components core pages test utils main.js run.js webpack.config.js",
-    "stylelint": "stylelint \"components/**/*.css\" \"pages/**/*.css\"",
+    "stylelint": "stylelint \"components/**/*.css\" \"pages/**/*.css\" \"static/**/*.css\"",
     "lint": "npm run eslint && npm run stylelint",
     "test": "mocha --compilers js:babel-register",
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
@@ -106,6 +106,7 @@
     "publish": "node run publish",
     "publish:debug": "node run publish --debug",
     "start": "node run",
-    "start:dist": "npm run build && http-server"
+    "start:dist": "npm run build && http-server",
+    "install:hooks": "ln -s tools/pre-commit .git/hooks/pre-commit"
   }
 }
