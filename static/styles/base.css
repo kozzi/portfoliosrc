@@ -10,7 +10,10 @@ html {
   font-size: 16pt;
   color: var(--black-blue);
 }
-*, *:before, *:after {
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
