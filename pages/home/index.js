@@ -10,11 +10,72 @@
 
 import React from 'react';
 import IndexLayout from '../../components/Layout/IndexLayout';
-import { html } from './index.md';
+import Link from '../../components/Link';
+import hint from 'hint.css/hint.css';
+import s from './styles.css';
+import webDev from '../../static/images/web.png';
+import productDesign from '../../static/images/product.svg';
+import illustration from '../../static/images/illustration.svg';
 
 const HomePage = () =>
   <IndexLayout>
-    <div dangerouslySetInnerHTML={{ __html: html }} />
+    <section>
+      <h1>About Me</h1>
+      <p>Hi, I'm Charing!
+        <span
+          className={`${s.asterisk} ${hint['hint--right']} ${hint['hint--rounded']}`}
+          aria-label="Psst! It rhymes with 'bling'!"
+        >
+          *
+        </span>
+      </p>
+
+      <p>
+      I design user experiences, and I make them real with code.
+      I love the entire process of creation. I am at my happiest when
+      I am surrounded by really smart people and learning something new.
+      </p>
+
+      <p>Previously, I was product manager at <a href="http://microsoft.com">Microsoft</a>, and engineering contributor at <a href="http://code.org">Code.org</a></p>
+
+      <p><Link to="/about" className={s.more}>More about me &#8594;</Link></p>
+    </section>
+
+    <section className={s.whatIDo}>
+      <h1>What I do</h1>
+      <div className={s.whatIDoItem}>
+        <img src={webDev} alt="Web Development" />
+        <h2>Web Development</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quaerat quis expedita id minus, doloremque molestias quasi
+          at est nam vel fugiat debitis iure! Accusantium velit, animi
+          libero veniam repudiandae commodi.
+        </p>
+      </div>
+      <div className={s.whatIDoItem}>
+        <img src={productDesign} alt="Product Design" />
+        <h2>Product Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quaerat quis expedita id minus, doloremque molestias quasi
+          at est nam vel fugiat debitis iure! Accusantium velit, animi
+          libero veniam repudiandae commodi.
+        </p>
+      </div>
+      <div className={s.whatIDoItem}>
+        <img src={illustration} alt="Illustration" />
+        <h2>Illustration</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quaerat quis expedita id minus, doloremque molestias quasi
+          at est nam vel fugiat debitis iure! Accusantium velit, animi
+          libero veniam repudiandae commodi.
+        </p>
+      </div>
+    </section>
+
+
   </IndexLayout>
 ;
 

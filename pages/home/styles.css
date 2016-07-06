@@ -1,0 +1,43 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.asterisk {
+  font-size: var(--h3);
+  margin-left: 2px;
+}
+
+.whatIDo {
+  text-align: center;
+}
+
+.whatIDoItem {
+  display: inline-block;
+  width: 30%;
+  margin: 50px 10px;
+
+  & img {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+  }
+
+  & h2 {
+    color: var(--blue);
+  }
+
+  @media (width < 960px) {
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+
+    & img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.more {
+  background: var(--blue-grey);
+}
+

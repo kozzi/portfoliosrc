@@ -9,6 +9,7 @@
   "dependencies": {
     "babel-polyfill": "^6.9.1",
     "fastclick": "^1.0.6",
+    "hint.css": "^2.3.1",
     "history": "^3.0.0",
     "hover.css": "^2.0.2",
     "jquery": "^3.0.0",

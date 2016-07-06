@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5EBF0;}
+	.st1{fill:#30537D;}
+	.st2{fill:#527EA7;}
+	.st3{fill:#171F2C;}
+	.st4{fill:#BED8E8;}
+	.st5{fill:#F4E96B;}
+	.st6{fill:#8FA2AE;}
+	.st7{display:none;}
+	.st8{display:inline;fill:#E5EBF0;}
+	.st9{opacity:0.1;fill:#FFFFFF;}
+	.st10{clip-path:url(#SVGID_2_);}
+	.st11{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st12{display:none;clip-path:url(#SVGID_2_);fill:#8FA2AE;}
+	.st13{fill:#FFFFFF;}
+	.st14{clip-path:url(#SVGID_2_);fill:url(#SVGID_4_);}
+	.st15{clip-path:url(#SVGID_6_);fill:#527EA7;}
+	.st16{clip-path:url(#SVGID_6_);}
+	.st17{opacity:0.2;fill:url(#SVGID_7_);}
+	.st18{fill:#FFFFFF;stroke:#F4E96B;stroke-width:2;stroke-miterlimit:10;}
+	.st19{opacity:5.000000e-02;}
+	.st20{opacity:0.5;fill:#E5EBF0;}
+	.st21{opacity:0.3;fill:#8FA2AE;}
+	.st22{fill:none;stroke:#8FA2AE;stroke-width:3;stroke-miterlimit:10;}
+	.st23{opacity:0.8;fill:#8FA2AE;}
+	.st24{opacity:0.6;fill:#8FA2AE;}
+	.st25{opacity:0.4;fill:#8FA2AE;}
+	.st26{opacity:0.2;fill:#8FA2AE;}
+</style>
+<g id="colour_palette">
+</g>
+<g id="background_squares" class="st7">
+	<rect id="illustration_1_" x="0" class="st8" width="500" height="500"/>
+</g>
+<g id="tablet">
+</g>
+<g id="phone">
+</g>
+<g id="web">
+	<defs>
+		<circle id="SVGID_1_" cx="900.5" cy="-300" r="240"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<g id="illustration">
+	<g id="clippable">
+		<defs>
+			<circle id="SVGID_5_" cx="250" cy="250" r="240"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect style="clip-path:url(#SVGID_3_);fill:#527EA7;" width="500" height="500"/>
+		<g id="heart" style="clip-path:url(#SVGID_3_);">
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="267.7044" y1="227.7138" x2="527.9197" y2="487.9291">
+				<stop  offset="0" style="stop-color:#000000"/>
+				<stop  offset="0.4839" style="stop-color:#959393"/>
+				<stop  offset="1" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<polygon style="opacity:0.2;fill:url(#SVGID_4_);" points="519,333.5 349.4,163 255.7,163 250,168.7 244.3,163 151,163 
+				151,257.1 412.2,518.5 412.2,518.5 413.2,519.6 413.2,519.6 419.9,525.8 519,427.1 519,333.5 			"/>
+			<path class="st18" d="M349.4,163.5L349.4,163.5c-25.8-25.8-67.9-25.8-93.6,0l-5.7,5.7l-5.7-5.7c-25.7-25.8-67.9-25.8-93.6,0l0,0
+				c-25.8,25.8-25.8,67.9,0,93.6l6.1,6.1l87.5,87.5c1.8,1.8,3.8,3.5,5.7,5.1c2-1.6,3.9-3.3,5.7-5.1l87.5-87.5l6.1-6.1
+				C375.1,231.4,375.1,189.2,349.4,163.5z"/>
+			<path class="st19" d="M349.6,163.6L349.6,163.6c-25.8-25.8-68.1-25.8-93.9,0l-6,5.7v186.6c2.6-1.6,4.1-3.3,6-5.1l87.6-87.5
+				l6.2-6.1C375.3,231.5,375.3,189.3,349.6,163.6z"/>
+			<g>
+				<g>
+					<g>
+						<circle class="st5" cx="148.2" cy="163.7" r="5.3"/>
+					</g>
+					<g>
+						<circle class="st5" cx="117.8" cy="194.2" r="5.3"/>
+					</g>
+					
+						<rect x="113" y="177.4" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 353.1961 211.1541)" class="st5" width="39.7" height="2.6"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<g>
+						<circle class="st5" cx="148.2" cy="255.1" r="5.3"/>
+					</g>
+					<g>
+						<circle class="st5" cx="117.8" cy="224.7" r="5.3"/>
+					</g>
+					
+						<rect x="113" y="238.8" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 57.0172 503.885)" class="st5" width="39.7" height="2.6"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="layer">
+		<rect id="toolbox_title_bar_1_" x="303.8" y="335.4" class="st6" width="164.8" height="11.5"/>
+		<rect id="toolbox_title_bar_5_" x="304.1" y="335.4" class="st13" width="50" height="11.5"/>
+		<rect id="toolbox_title_bar_7_" x="354.1" y="335.4" class="st20" width="50" height="11.5"/>
+		<rect id="body" x="303.8" y="347" class="st13" width="164.8" height="139.5"/>
+		<rect x="311.8" y="358.2" class="st6" width="16" height="16"/>
+		<rect x="336.8" y="364.2" class="st21" width="120" height="4"/>
+		<rect x="311.8" y="379.3" class="st6" width="16" height="16"/>
+		<rect x="336.8" y="385.3" class="st21" width="120" height="4"/>
+		<rect x="311.8" y="400.7" class="st6" width="16" height="16"/>
+		<rect x="336.8" y="406.7" class="st21" width="120" height="4"/>
+		<rect x="311.8" y="422.1" class="st6" width="16" height="16"/>
+		<rect x="336.8" y="428.1" class="st21" width="120" height="4"/>
+		<rect x="311.8" y="443.5" class="st6" width="16" height="16"/>
+		<rect x="336.8" y="449.5" class="st21" width="120" height="4"/>
+	</g>
+	<g id="toolbar">
+		<g>
+			<rect id="selection_tool_box" x="31.2" y="111.5" class="st13" width="57.7" height="57.7"/>
+			<polygon class="st6" points="72.6,135.3 48.5,149.3 48.5,121.4 			"/>
+			
+				<rect x="55.2" y="141.5" transform="matrix(0.527 0.8499 -0.8499 0.527 152.5644 15.7286)" class="st6" width="13.9" height="6.8"/>
+			<polygon class="st19" points="88.8,169.2 31.2,111.5 31.2,169.2 			"/>
+		</g>
+		<g>
+			<rect id="selection_tool_box_1_" x="31.2" y="169.2" class="st13" width="57.7" height="57.7"/>
+			<rect x="42.7" y="184.9" class="st6" width="34.6" height="28.8"/>
+			<polygon class="st19" points="88.8,226.9 31.2,169.2 31.2,226.9 			"/>
+		</g>
+		<g>
+			<rect id="selection_tool_box_2_" x="31.2" y="226.9" class="st13" width="57.7" height="57.7"/>
+			<circle class="st6" cx="60.5" cy="256.2" r="17.3"/>
+			<polygon class="st19" points="88.8,284.6 31.2,226.9 31.2,284.6 			"/>
+		</g>
+		<g>
+			<rect id="selection_tool_box_3_" x="31.2" y="284.6" class="st13" width="57.7" height="57.7"/>
+			<polyline class="st6" points="63.9,302.7 51.2,308.7 43.2,329.9 44.1,330.8 44.1,330.9 45,331.8 66.2,323.8 72.2,311.1 			"/>
+			
+				<rect x="41.3" y="323.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -214.6641 130.7216)" class="st0" width="18.2" height="1.1"/>
+			<circle class="st0" cx="57.7" cy="317.2" r="3"/>
+			
+				<rect x="62.6" y="300.2" transform="matrix(0.7071 0.7071 -0.7071 0.7071 235.4293 38.6324)" class="st6" width="17" height="6.7"/>
+			<polygon class="st19" points="88.8,342.3 31.2,284.6 31.2,342.3 			"/>
+		</g>
+		<g>
+			<polyline id="selection_tool_box_5_" class="st13" points="31.2,400 31.2,342.3 88.8,342.3 88.8,400 			"/>
+			<polyline class="st19" points="88.8,400 31.2,342.3 31.2,400 			"/>
+			
+				<rect x="56.9" y="360.2" transform="matrix(0.7071 0.7071 -0.7071 0.7071 277.3495 59.0315)" class="st6" width="21" height="8.3"/>
+			
+				<rect x="64.7" y="355.1" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 378.0816 561.8219)" class="st6" width="15.9" height="8.3"/>
+			<path class="st22" d="M41.5,384.3L63,362.9c1.6-1.6,4.1-1.6,5.7,0l0.2,0.2c1.6,1.6,1.6,4.1,0,5.7l-21.5,21.5
+				c-1.6,1.6-4.1,1.6-5.7,0l-0.2-0.2C40,388.4,40,385.9,41.5,384.3z"/>
+		</g>
+		<polyline id="toolbox_title_bar_11_" class="st6" points="88.8,111.5 31.2,111.5 31.2,100 88.8,100 		"/>
+	</g>
+	<g id="colour">
+		<rect id="toolbox_title_bar_16_" x="303.8" y="36.1" class="st6" width="164.8" height="11.5"/>
+		<rect id="toolbox_title_bar_14_" x="304.1" y="36.1" class="st13" width="50" height="11.5"/>
+		<rect id="body_1_" x="303.8" y="47.6" class="st13" width="164.8" height="70.2"/>
+		<rect x="311.8" y="58.9" class="st6" width="16" height="16"/>
+		<rect x="311.8" y="82.7" class="st6" width="78.9" height="16"/>
+		<rect x="327.8" y="58.9" class="st23" width="16" height="16"/>
+		<rect x="343.8" y="58.9" class="st24" width="16" height="16"/>
+		<rect x="359.8" y="58.9" class="st25" width="16" height="16"/>
+		<rect x="375.8" y="58.9" class="st26" width="16" height="16"/>
+	</g>
+</g>
+</svg>

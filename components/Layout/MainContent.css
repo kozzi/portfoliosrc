@@ -63,7 +63,7 @@
       &:focus,
       &:active {
         color: var(--dark-blue);
-        background: var(--yellow);
+        background: var(--blue-grey);
 
         &::before {
           left: 0;

@@ -55,8 +55,8 @@
     &:hover,
     &:focus,
     &:active {
-      background: var(--yellow);
       color: var(--dark-blue);
+      background: var(--blue-grey);
 
       &::before {
         left: 0;
