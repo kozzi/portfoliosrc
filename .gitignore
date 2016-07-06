@@ -11,3 +11,6 @@ npm-debug.log
 
 # Firebase
 firebase-debug.log
+
+# MacOS
+.DS_Store
