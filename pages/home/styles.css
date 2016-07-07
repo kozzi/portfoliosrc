@@ -57,13 +57,25 @@
   &:focus em {
     opacity: 100;
   }
+
+  @media (width < 960px) {
+    display: none;
+  }
 }
 
 .profile {
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 10px -4px var(--dark-grey);
   width: 230px;
   float: left;
-  border-radius: 50%;
   margin: 35px;
+
+  @media (width < 768px) {
+    width: 60%;
+    float: none;
+    margin: 35px auto;
+  }
 }
 
 .whatIDo {
@@ -87,11 +99,11 @@
 
   @media (width < 960px) {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 50px auto;
 
     & img {
-      width: 80%;
+      width: 60%;
       margin: 0 auto;
     }
   }

@@ -74,6 +74,16 @@ const HomePage = () =>
       </div>
     </section>
 
+    <section>
+      <h1>Frameworks & tools</h1>
+
+    </section>
+
+    <section>
+      <h1>Featured Work</h1>
+
+    </section>
+
   </IndexLayout>
 ;
 
