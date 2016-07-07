@@ -4,7 +4,7 @@
 .aboutMe {
   /** To force the section be as tall as its children */
   overflow: hidden;
-  margin-bottom: 100px;
+  margin-bottom: var(--index-section-margin-bottom);
 }
 
 .asterisk {
@@ -78,37 +78,6 @@
   }
 }
 
-.whatIDo {
-  text-align: center;
-}
-
-.whatIDoItem {
-  display: inline-block;
-  width: 30%;
-  margin: 50px 10px;
-
-  & img {
-    display: block;
-    width: 240px;
-    margin: 0 auto;
-  }
-
-  & h2 {
-    color: var(--blue);
-  }
-
-  @media (width < 960px) {
-    display: block;
-    width: 100%;
-    margin: 50px auto;
-
-    & img {
-      width: 60%;
-      margin: 0 auto;
-    }
-  }
-}
-
 p.more {
   & a {
     background: var(--blue);
@@ -129,4 +98,3 @@ p.more {
     }
   }
 }
-

@@ -1,0 +1,5 @@
+@import '../../static/styles/vars.css';
+
+.tools {
+  margin-bottom: var(--index-section-margin-bottom);
+}
