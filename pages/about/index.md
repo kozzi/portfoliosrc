@@ -2,7 +2,7 @@
 
 Hi, I'm Charing!
 
-I design user experiences, and I make them real with code. I ♥ the entire process of creation. I am at my happiest when I am surrounded by really smart people and learning something new.
+I design user experiences, and I make them real with code. I ♥ the entire process of creation. I am my happiest when I am surrounded by really smart people and learning something new.
 
 ## Designer
 I am a self-taught UX designer and illustrator.

@@ -10,13 +10,13 @@ const AboutMe = () =>
     <h2>Hi, I'm Charing!
       <span className={s.asterisk}>
         *
-        <em>Psst! It rhymes with 'bling'!</em>
+        <em>It rhymes with 'bling'!</em>
       </span>
     </h2>
 
     <p>
     I design user experiences, and I make them real with code.
-    I &hearts; the entire process of creation. I am at my happiest when
+    I &hearts; the entire process of creation. I am happiest when
     I am surrounded by really smart people and learning something new.
     </p>
 

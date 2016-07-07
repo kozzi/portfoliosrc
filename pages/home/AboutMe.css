@@ -20,8 +20,8 @@
     display: block;
     opacity: 0;
     position: absolute;
-    top: 0;
-    left: 150%;
+    top: -3px;
+    left: 180%;
     z-index: 1;
     border-radius: 2px;
     pointer-events: none;
@@ -55,7 +55,7 @@
 
   &:hover em,
   &:focus em {
-    opacity: 100;
+    opacity: 0.5;
   }
 
   @media (width < 960px) {
@@ -68,7 +68,7 @@
   border-radius: 50%;
   box-shadow: 0 0 10px -4px var(--dark-grey);
   width: 230px;
-  float: left;
+  float: right;
   margin: 35px;
 
   @media (width < 768px) {
@@ -83,8 +83,7 @@ p.more {
     background: var(--blue);
     color: var(--light-grey);
     font-size: var(--h3);
-    padding: 5px 20px;
-    border-radius: 4px;
+    padding: 5px 10px;
 
     &:hover,
     &:focus,
