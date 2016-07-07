@@ -11,7 +11,6 @@
 import React from 'react';
 import IndexLayout from '../../components/Layout/IndexLayout';
 import Link from '../../components/Link';
-import hint from 'hint.css/hint.css';
 import s from './styles.css';
 import webDev from '../../static/images/web.png';
 import productDesign from '../../static/images/product.svg';
@@ -22,21 +21,19 @@ const HomePage = () =>
     <section>
       <h1>About Me</h1>
       <p>Hi, I'm Charing!
-        <span
-          className={`${s.asterisk} ${hint['hint--right']} ${hint['hint--rounded']}`}
-          aria-label="Psst! It rhymes with 'bling'!"
-        >
+        <span className={s.asterisk}>
           *
+          <em>Psst! It rhymes with 'bling'!</em>
         </span>
       </p>
 
       <p>
       I design user experiences, and I make them real with code.
-      I love the entire process of creation. I am at my happiest when
+      I &hearts; the entire process of creation. I am at my happiest when
       I am surrounded by really smart people and learning something new.
       </p>
 
-      <p>Previously, I was product manager at <a href="http://microsoft.com">Microsoft</a>, and engineering contributor at <a href="http://code.org">Code.org</a></p>
+      <p>Previously, I was product manager at <a href="http://microsoft.com">Microsoft</a>, and engineering contributor at <a href="http://code.org">Code.org</a>.</p>
 
       <p><Link to="/about" className={s.more}>More about me &#8594;</Link></p>
     </section>
