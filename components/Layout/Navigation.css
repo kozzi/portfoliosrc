@@ -18,6 +18,11 @@
     display: inline-block;
     margin-left: 30px;
     text-transform: lowercase;
+
+    @media (width < 500px) {
+      margin-left: 5px;
+      font-size: var(--h4);
+    }
   }
 
   & a {
