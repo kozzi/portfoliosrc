@@ -4,18 +4,28 @@ import MainContent from './MainContent';
 import Footer from './Footer';
 import '../../static/styles/base.css';
 
-const Layout = (props) =>
-  <div>
-    <Header useLightFill={false} />
-    <MainContent>
-      {props.children}
-    </MainContent>
-    <Footer />
-  </div>
-;
+class Layout extends React.Component {
 
-Layout.propTypes = {
-  children: PropTypes.node,
-};
+  static propTypes = {
+    children: PropTypes.node,
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        <Header useLightFill={false} />
+        <MainContent>
+          {this.props.children}
+        </MainContent>
+        <Footer />
+      </div>
+    );
+  }
+
+}
 
 export default Layout;

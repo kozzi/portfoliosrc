@@ -28,6 +28,7 @@ class IndexLayout extends React.Component {
     this.scrollMagicController = null;
   }
   componentDidMount() {
+    window.scrollTo(0, 0);
     this.scrollMagicController = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({ triggerElement: 'main', triggerHook: 0 })
