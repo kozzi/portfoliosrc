@@ -1,68 +1,32 @@
----
-title: About Me
----
+## Designer | Developer | Product Manager
 
-## Cadme comitum fecere
+Hi, I'm Charing!
 
-Lorem markdownum velis auras figuram spes solebat spectabat, cum alium,
-plenissima aratri visae herbarum in corpore silvas consumpta. Subito virgae nec
-paratae flexit et niveae repperit erat paratu cum albis steterat conclamat hic!
+I design user experiences, and I make them real with code. I ♥ the entire process of creation. I am at my happiest when I am surrounded by really smart people and learning something new.
 
-Nocte suae ligat! *Si* nitidum pervia, illa tua, ab minimo pasci dabitur? In
-fictus concurreret pennis, illis cum accipe rogavi in et nostro cum lacertis
-hostibus ab saxo ne. Genibusque vixque; sine videt terribili lucos ipsum vobis
-resque, et suum pietatis fulvis, est velle. Semele oscula ferat frigidus mactata
-montes, es me parari, piae.
+## Designer
+I am a self-taught UX designer and illustrator.
 
-## Inflataque ait leves frigida
+I love the end-to-end process of designing and building consumer-facing products. To me, user experience design is not just about pretty visuals (although that can help!). Design should always be about solving user problems. 
 
-Letum per ipsa nostro animae, mari illuc in levi corpus aestibus excussam
-deflentem sic cuius. Venere dedit illa cui in quo senecta artus bella inficit,
-Achaica. Videbatur crinem resonantia alto dea umida dicitur igne; meus signa
-habet; est. Cognovit coepta: similes fugis: habuissem votivi liquida: ictus visi
-nostra me Adoni.
+## Developer
+I graduated from the [Software Engineering](https://uwaterloo.ca/software-engineering/) Co-op program at the [University of Waterloo](http://uwaterloo.ca) (at the top 10% of my class with [Dean's Honours List](https://ugradcalendar.uwaterloo.ca/page/ENG-Deans-Honours-List)) . My degree, and its excellent co-op program, taught me solid CS fundamentals. I understand what well-designed, maintainable, and scalable software looks like.
 
-## Laedar cum margine quoque
+My engineering background not only lets me communicate effectively with developers, it also gives me the ability to build the product myself, which I love! I am not afraid to dig into a codebase to build features and fix bugs, and I take pride knowing I can do those things properly.
 
-Quam dato ullis, acer venturi volantes! Tuam non non cursu acta hic, novem
-nutrit, in sidera viscera iam fontes tempora, omnes. Saturnius artus inquit,
-conatoque erectos lenius, carinae, ora est infamia elige per Medusaei induitur.
-Quem quem ab postquam tunc frondescere nodis capiam labique. Voluere luce
-Semeles.
+## Product Manager
+For several years, I worked in Seattle as product manager at [Microsoft](http://microsoft.com), where I was responsible for designing and shipping large user-facing products (like, for *billions* of users). 
 
-```
-    if (delete(digital, hibernateSoft, dynamicExcelVpn) > io_secondary_led /
-            84) {
-        disk = load;
-        orientationPci.matrix_laptop(modelSsdTweet);
-    } else {
-        kdeEmoticonLed.mebibyte_algorithm_domain(2,
-                hackerCtr.rom_iso_desktop.scarewarePrimaryBankruptcy(station,
-                disk_mask_matrix, restore_crt));
-        cameraSpyware(4, multitasking(-3, log_dfs_controller));
-        menuCisc.swappable -= w(mount_vle_unicode, 5);
-    }
-    var optic_spider = newbieFunctionThick(-3, esportsKbpsUnix);
-    var dvd_ctp_resolution = dithering;
-```
+I understand what it takes to collaborate with a team of developers, testers, designers, user researchers, and marketing to ship something. I understand what it means to advocate for our users. I understand storytelling is a big part of shipping. I understand prioritization. I understand that, sometimes, you have to make difficult tradeoffs.
 
-## Usus fixurus illi petunt
+## What I am looking for
+My ideal role is where I am always learning new things. I care about advancing my skills in all three of the areas above. I am always more interested in the kind of work I do, than the title I carry.
 
-Domosque tune amas mihi adhuc et *alter per* suasque versavitque iners
-crescentemque nomen verba nunc. Acervos hinc natus si habet. Et cervix imago
-quod! Arduus dolet!
+I currently have a slight preference for roles with more design work, because that feels like an area where I have most to learn :) If you are looking for someone who is *relentless* about learning new things, and need somebody who prides herself in being a Jill of all trades, let's chat!
 
-```
-    cpcDdrCommand.window(moodleAlpha, im, server_alpha.doubleVrmlMonochrome(
-            iosBar - -2, white_dual, ad(2, 94, 83)));
-    mbps_typeface_publishing.bit.host_flash_capacity(click(90,
-            cyberspace_srgb_pup - mpeg, marketing_trackback +
-            table_plagiarism_domain));
-    syn_e = powerExtension * defragmentNntpOsd(alertOutputNode(pop,
-            pageResponsiveDrive));
-    method -= switch_newsgroup_flaming;
-```
+## In my spare time...
+... I love climbing, cycling, practicing calligraphy, and (watching) chess. 
 
-Aliquid mansura arida altismunera **in illi**. Dignus vir pontum *crimen
-versabat* carpunt omnes rotis Canentem erant in Oebalio, et manu senecta
-iungere. Prima diurnis!
+I also love teaching. I was a climbing instructor and trip organizer for [Washington Alpine Club](http://washingtonalpineclub.org)'s basic and intermediate climbing classes for 3 years. If you live in the GTA and are into easy/moderate multi-pitch trad climbs, I'm always looking for new partners :)
+
+I enjoy giving time back to promoting computer science education. In the past, I've volunteered as mentor and instructor with organizations like [Ladies Learning Code](http://ladieslearningcode.com), [Kids Learning Code](http://kidslearningcode.com) and [DigiGirlz](https://www.microsoft.com/en-us/diversity/programs/digigirlz/default.aspx). I also regularly build features and fix bugs for [Code.org](http://code.org).

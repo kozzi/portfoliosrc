@@ -10,23 +10,20 @@
 
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
-import { title, html } from './index.md';
+import s from './styles.css';
+import { html } from './index.md';
+import profileImage from '../../static/images/profile2.jpg';
+import rainierImage from '../../static/images/rainier-ladder.jpg';
+import stpImage from '../../static/images/stp.jpg';
 
-class AboutPage extends React.Component {
-
-  componentDidMount() {
-    document.title = title;
-  }
-
-  render() {
-    return (
-      <Layout>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </Layout>
-    );
-  }
-
-}
+const AboutPage = () =>
+  <Layout>
+    <h1>Who's Charing?</h1>
+    <img src={rainierImage} alt="Climbing Mt Rainier" className={s.profileImage} />
+    <img src={profileImage} alt="Charing" className={s.profileImage} />
+    <img src={stpImage} alt="Riding the Seattle-to-Portland route" className={s.profileImage} />
+    <div dangerouslySetInnerHTML={{ __html: html }} />
+  </Layout>
+;
 
 export default AboutPage;

@@ -1,0 +1,8 @@
+.profileImage {
+  width: 33%;
+
+  @media (width <= 500px) {
+    display: block;
+    width: 100%;
+  }
+}
