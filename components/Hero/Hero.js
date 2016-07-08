@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../Header';
 import HeroCaption from './HeroCaption';
 import s from './Hero.css';
 import heroImage from './hero-30.jpg';

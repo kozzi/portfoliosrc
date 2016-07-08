@@ -9,7 +9,7 @@ const Logo = (props) => {
   return (
     <div className={s.logoContainer}>
       <Link to="/" className={hover['hvr-float-shadow']}>
-        <svg version="1.1" x="0px" y="0px" viewBox="0 0 80 80">
+        <svg version="1.1" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 80 80">
           <g id="mountains">
             <path
               className={fillClass}

@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import IndexLayout from '../../components/Layout/IndexLayout';
+import IndexLayout from '../../components/IndexLayout';
 import AboutMe from './AboutMe';
 import FeaturedWork from './FeaturedWork';
 import WhatIDo from './WhatIDo';

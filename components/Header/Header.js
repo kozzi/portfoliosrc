@@ -8,8 +8,8 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 import React from 'react';
-import Logo from './Logo';
-import Navigation from './Navigation';
+import Logo from '../Logo';
+import Navigation from '../Navigation';
 import s from './Header.css';
 
 const Header = (props) =>

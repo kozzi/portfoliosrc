@@ -10,9 +10,9 @@
 
 import React, { PropTypes } from 'react';
 import ScrollMagic from 'scrollmagic';
-import Hero from './Hero';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import Hero from '../Hero';
+import MainContent from '../MainContent';
+import Footer from '../Footer';
 import '../../static/styles/base.css';
 
 class IndexLayout extends React.Component {
