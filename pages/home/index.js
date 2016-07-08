@@ -15,8 +15,8 @@ import FeaturedWork from './FeaturedWork';
 import WhatIDo from './WhatIDo';
 import Tools from './Tools';
 
-const HomePage = () =>
-  <IndexLayout>
+const HomePage = (props) =>
+  <IndexLayout {...props}>
     <AboutMe />
     <FeaturedWork />
     <WhatIDo />

@@ -10,6 +10,7 @@
 
 import React, { PropTypes } from 'react';
 import ScrollMagic from 'scrollmagic';
+import EasyTransition from 'react-easy-transition';
 import Hero from '../Hero';
 import MainContent from '../MainContent';
 import Footer from '../Footer';
@@ -18,6 +19,7 @@ import '../../static/styles/base.css';
 class IndexLayout extends React.Component {
   static propTypes = {
     children: PropTypes.node,
+    route: PropTypes.object,
   };
 
   constructor() {
@@ -52,11 +54,18 @@ class IndexLayout extends React.Component {
   render() {
     return (
       <div>
-        <Hero useLightFill={this.getUseLightFill()} />
-        <MainContent>
-          {this.props.children}
-        </MainContent>
-        <Footer />
+        <EasyTransition
+          path={this.props.route.path}
+          initialStyle={{ opacity: 0 }}
+          transition="opacity 0.3s ease-in"
+          finalStyle={{ opacity: 1 }}
+        >
+          <Hero useLightFill={this.getUseLightFill()} />
+          <MainContent>
+              {this.props.children}
+          </MainContent>
+          <Footer />
+        </EasyTransition>
       </div>
     );
   }

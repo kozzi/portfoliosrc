@@ -16,8 +16,8 @@ import profileImage from '../../static/images/profile2.jpg';
 import rainierImage from '../../static/images/rainier-ladder.jpg';
 import stpImage from '../../static/images/stp.jpg';
 
-const AboutPage = () =>
-  <Layout>
+const AboutPage = (props) =>
+  <Layout {...props}>
     <h1>Who's Charing?</h1>
     <img src={rainierImage} alt="Climbing Mt Rainier" className={s.profileImage} />
     <img src={profileImage} alt="Charing" className={s.profileImage} />
