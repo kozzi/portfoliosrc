@@ -55,7 +55,7 @@
 
   &:hover em,
   &:focus em {
-    opacity: 0.5;
+    opacity: 1;
   }
 
   @media (width < 960px) {

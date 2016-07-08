@@ -1,0 +1,45 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.quickFacts {
+  float: right;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: var(--black-blue);
+  color: var(--dark-grey);
+  font-size: var(--h5);
+
+  @media (width <= 500px) {
+    display: none;
+  }
+
+  & img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  & h1 {
+    padding: 0;
+    background: none;
+    color: var(--yellow);
+    font-size: var(--h2);
+    text-transform: lowercase;
+  }
+
+  & p {
+    margin: 0;
+    padding: 0;
+
+    &.heading {
+      margin-top: 20px;
+      color: var(--light-grey);
+      text-transform: uppercase;
+      font-size: var(--h5);
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+  }
+}

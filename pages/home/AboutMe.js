@@ -1,4 +1,5 @@
 import React from 'react';
+import Heart from '../../components/Heart';
 import Link from '../../components/Link';
 import s from './AboutMe.css';
 import profileImage from '../../static/images/profile2.jpg';
@@ -15,9 +16,9 @@ const AboutMe = () =>
     </h2>
 
     <p>
-    I design user experiences, and I make them real with code.
-    I &hearts; the entire process of creation. I am happiest when
-    I am surrounded by really smart people and learning something new.
+      I design user experiences, and I make them real with code.
+      I <Heart /> the entire process of creation, and am happiest when
+      I am surrounded by really smart people and learning something new.
     </p>
 
     <p>Previously, I was product manager at <a href="http://microsoft.com">Microsoft</a>, and engineering contributor at <a href="http://code.org">Code.org</a>.</p>

@@ -10,19 +10,26 @@
 
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
+import QuickFacts from './QuickFacts';
+import Heart from '../../components/Heart';
 import s from './styles.css';
 import { html } from './index.md';
-import profileImage from '../../static/images/profile2.jpg';
 import rainierImage from '../../static/images/rainier-ladder.jpg';
 import stpImage from '../../static/images/stp.jpg';
+import rockImage from '../../static/images/rock.jpg';
 
 const AboutPage = (props) =>
   <Layout {...props}>
-    <h1>Who's Charing?</h1>
-    <img src={rainierImage} alt="Climbing Mt Rainier" className={s.profileImage} />
-    <img src={profileImage} alt="Charing" className={s.profileImage} />
-    <img src={stpImage} alt="Riding the Seattle-to-Portland route" className={s.profileImage} />
+    <QuickFacts />
+    <p className={s.intro}>
+      I'm a designer, developer, and product manager,
+      who recently moved to the beautiful city of Toronto.
+      <Heart />
+    </p>
     <div dangerouslySetInnerHTML={{ __html: html }} />
+    <img src={rainierImage} alt="Climbing Mt Rainier" className={s.profileImage} />
+    <img src={stpImage} alt="Riding the Seattle-to-Portland route" className={s.profileImage} />
+    <img src={rockImage} alt="Rock climbing" className={s.profileImage} />
   </Layout>
 ;
 
