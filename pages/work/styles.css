@@ -1,0 +1,6 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.content {
+  clear: both;
+}

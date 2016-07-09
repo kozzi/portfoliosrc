@@ -19,7 +19,11 @@
     "page": "./pages/work"
   },
   {
-    "path": "/tasks/:status(pending|completed)?",
-    "page": "./pages/home"
+    "path": "/work/scandi",
+    "page": "./pages/work/scandi"
+  },
+  {
+    "path": "/work/pawnda",
+    "page": "./pages/work/pawnda"
   }
 ]

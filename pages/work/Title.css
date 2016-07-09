@@ -1,0 +1,19 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.title {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  & h1 {
+    margin: 1em 0;
+    padding: 0;
+    background: none;
+    font-size: var(--h1);
+    color: var(--blue);
+    text-transform: none;
+    text-align: right;
+  }
+}
