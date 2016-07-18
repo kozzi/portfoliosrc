@@ -3,4 +3,12 @@
   float: left;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 80px;
+
+  @media (width <= 768px) {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
