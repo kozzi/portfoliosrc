@@ -16,7 +16,7 @@ import youtube2 from './youtube2.png';
 const PawndaPage = (props) =>
   <Layout {...props}>
     <Hero path={heroImage} alt="Kalashnikov Pawn-da" />
-    <Title>Kalashnikov Pawn-da YouTube Banner Art</Title>
+    <Title>Pawn-da YouTube Banner Art</Title>
     <Snippet>
       <p>
         Tony Rotella is a chess expert and author of the chess book, <a href="https://smile.amazon.com/Killer-Sicilian-Fighting-1e4-Kalashnikov/dp/1857446658/">The Killer Sicilian</a>. He is well known in the online chess community and also runs his own YouTube chess channel.
