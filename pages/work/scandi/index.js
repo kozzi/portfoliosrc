@@ -110,6 +110,9 @@ const ScandiPage = (props) =>
     <img src={dark1} className={s.fullWidthImage} alt="Dark theme with blue accent" />
     <img src={dark2} className={s.fullWidthImage} alt="Dark theme with orange accent" />
 
+    <h2>Software and tools</h2>
+
+    <p>Illustrator, Photoshop, and good old-fashioned pen and paper</p>
   </Layout>
 ;
 

@@ -78,6 +78,10 @@ const PawndaPage = (props) =>
     <p>
       You can see the illustration in action on his <a href="https://www.youtube.com/user/TonyRotella">YouTube channel</a>.
     </p>
+
+    <h2>Software and tools</h2>
+
+    <p>Illustrator, Photoshop, and good old-fashioned pen and paper</p>
   </Layout>
 ;
 

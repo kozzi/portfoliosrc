@@ -25,5 +25,9 @@
   {
     "path": "/work/pawnda",
     "page": "./pages/work/pawnda"
+  },
+  {
+    "path": "/work/dewey",
+    "page": "./pages/work/dewey"
   }
 ]

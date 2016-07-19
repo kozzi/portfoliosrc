@@ -6,9 +6,10 @@
 }
 
 .fullWidthImage {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   box-shadow: 0 5px 20px -5px var(--dark-grey);
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .videoContainer {

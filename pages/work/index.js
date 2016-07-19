@@ -9,7 +9,12 @@ const WorkPage = (props) =>
     <WorkItem>
       <p><Link to="/work/scandi">Scandi</Link></p>
     </WorkItem>
-    <p><Link to="/work/pawnda">Pawnda</Link></p>
+    <WorkItem>
+      <p><Link to="/work/pawnda">Pawnda</Link></p>
+    </WorkItem>
+    <WorkItem>
+      <p><Link to="/work/dewey">Dewey</Link></p>
+    </WorkItem>
   </Layout>
 ;
 
