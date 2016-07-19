@@ -16,7 +16,7 @@ import s from './styles.css';
 import { html } from './index.md';
 import rainierImage from '../../static/images/rainier-ladder.jpg';
 import stpImage from '../../static/images/stp.jpg';
-import rockImage from '../../static/images/rock.jpg';
+import calligraphyImage from '../../static/images/calligraphy.jpg';
 
 const AboutPage = (props) =>
   <Layout {...props}>
@@ -28,8 +28,9 @@ const AboutPage = (props) =>
     </p>
     <div dangerouslySetInnerHTML={{ __html: html }} />
     <img src={rainierImage} alt="Climbing Mt Rainier" className={s.profileImage} />
+    <img src={calligraphyImage} alt="Calligraphy" className={s.profileImage} />
     <img src={stpImage} alt="Riding the Seattle-to-Portland route" className={s.profileImage} />
-    <img src={rockImage} alt="Rock climbing" className={s.profileImage} />
+
   </Layout>
 ;
 
