@@ -15,6 +15,12 @@ const WorkPage = (props) =>
     <WorkItem>
       <p><Link to="/work/dewey">Dewey</Link></p>
     </WorkItem>
+    <WorkItem>
+      <p><Link to="/work/switching">Switching</Link></p>
+    </WorkItem>
+    <WorkItem>
+      <p><Link to="/work/snapping">Snapping</Link></p>
+    </WorkItem>
   </Layout>
 ;
 

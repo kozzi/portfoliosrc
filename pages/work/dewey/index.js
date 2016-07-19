@@ -11,7 +11,10 @@ import sketch2 from './sketch2.jpg';
 import logosketch from './logo_sketch.jpg';
 import logowire from './deweywire.gif';
 import logo from './dewey.png';
-import splash from './dewey-splash.png';
+import splash from './dewey-splash.jpg';
+import screenshot1 from './screenshot1.jpg';
+import screenshot2 from './screenshot2.jpg';
+import screenshot3 from './screenshot3.jpg';
 
 const DeweyPage = (props) =>
   <Layout {...props}>
@@ -76,7 +79,12 @@ const DeweyPage = (props) =>
 
     <img src={logowire} className={s.fullWidthImage} alt="Logo outline" />
     <img src={logo} className={s.fullWidthImage} alt="Logo" />
-    <img src={splash} className={s.fullWidthImage} alt="iOS splash screen design" />
+
+    <h2>Screenshots</h2>
+    <img src={splash} className={s.halfWidthImage} alt="iOS splash screen design" />
+    <img src={screenshot1} className={s.halfWidthImage} alt="Screenshot" />
+    <img src={screenshot2} className={s.halfWidthImage} alt="Screenshot" />
+    <img src={screenshot3} className={s.halfWidthImage} alt="Screenshot" />
 
     <h2>Languages, frameworks, and tools</h2>
 

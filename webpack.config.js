@@ -149,7 +149,7 @@ const config = {
         loader: 'url?limit=10000&mimetype=image/svg+xml',
       },
       {
-        test: /\.(wav|mp3)$/,
+        test: /\.(wav|mp3|mp4)$/,
         loader: 'file-loader',
       },
     ],

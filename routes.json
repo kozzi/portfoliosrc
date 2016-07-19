@@ -29,5 +29,9 @@
   {
     "path": "/work/dewey",
     "page": "./pages/work/dewey"
+  },
+  {
+    "path": "/work/switching",
+    "page": "./pages/work/switching"
   }
 ]
