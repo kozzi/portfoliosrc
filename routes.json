@@ -33,5 +33,9 @@
   {
     "path": "/work/switching",
     "page": "./pages/work/switching"
+  },
+  {
+    "path": "/work/snapping",
+    "page": "./pages/work/snapping"
   }
 ]

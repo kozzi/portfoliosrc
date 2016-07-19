@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
+import Link from '../../../components/Link';
 import Hero from '../Hero';
 import Title from '../Title';
 import Snippet from '../Snippet';
@@ -40,7 +41,7 @@ const SwitchingPage = (props) =>
       <li><strong>"Side by side" multitasking:</strong> Where the user can see and use multiple things side by side, simultaneously.</li>
     </ul>
 
-    <p>Serial multitasking is explored below. Side-by-side multitasking explorations are documented here.</p>
+    <p>Serial multitasking is explored below. Side-by-side multitasking explorations are documented <Link to="/work/snapping">here</Link>.</p>
 
     <h2>Design goals</h2>
     <p>On the desktop, user can switch to any app using the taskbar at the bottom of the screen, or &mdash; if you're savvy &mdash; to their <em>most recently used</em> apps through the keyboard shortcut alt-tab.</p>
