@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Link from '../../../components/Link';
+import BackButton from '../../../components/BackButton';
 import Hero from '../Hero';
 import Title from '../Title';
 import Snippet from '../Snippet';
@@ -83,9 +84,9 @@ const PawndaPage = (props) =>
 
     <p>Illustrator, Photoshop, and good old-fashioned pen and paper</p>
 
-    <div className={s.backLink}>
-      <Link to="/work">&#8592; Return to portfolio</Link>
-    </div>
+    <BackButton className={s.backLink}>
+      &#8592; Return to portfolio
+    </BackButton>
   </Layout>
 ;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
-import Link from '../../../components/Link';
+import BackButton from '../../../components/BackButton';
 import Hero from '../Hero';
 import Title from '../Title';
 import Snippet from '../Snippet';
@@ -91,9 +91,9 @@ const DeweyPage = (props) =>
 
     <p>Illustrator, Photoshop, Swift, Git, Cocoapods, XCode, Interface Builder, Amazon Product Advertising API, and a little web scraping ;)</p>
 
-    <div className={s.backLink}>
-      <Link to="/work">&#8592; Return to portfolio</Link>
-    </div>
+    <BackButton className={s.backLink}>
+      &#8592; Return to portfolio
+    </BackButton>
   </Layout>
 ;
 
