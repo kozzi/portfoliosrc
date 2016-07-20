@@ -37,6 +37,7 @@
       height: 100%;
       float: right;
       object-fit: cover;
+      filter: brightness(0.95);
 
       @media (width < 768px) {
         display: block;
@@ -48,6 +49,10 @@
     &:hover {
       background: var(--blue);
       color: #fff;
+
+      & img {
+        filter: brightness(1.05);
+      }
 
       & p {
         color: var(--blue-grey);
