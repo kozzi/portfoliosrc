@@ -9,6 +9,10 @@
   position: relative;
   box-shadow: 0 5px 20px -5px var(--dark-grey);
 
+  @media (width < 768px) {
+    padding-bottom: initial;
+  }
+
   & a {
     display: block;
     position: absolute;
@@ -23,12 +27,22 @@
     transition-timing-function: ease-out;
     text-decoration: none;
 
+    @media (width < 768px) {
+      position: static;
+    }
+
     & img {
       display: block;
       width: 60%;
       height: 100%;
       float: right;
       object-fit: cover;
+
+      @media (width < 768px) {
+        display: block;
+        float: none;
+        width: 100%;
+      }
     }
 
     &:hover {
@@ -47,11 +61,25 @@
   position: absolute;
   bottom: 0;
 
+  @media (width < 960px) {
+    margin: 20px 65% 20px 20px;
+  }
+
+  @media (width < 768px) {
+    position: static;
+    margin: 0;
+    padding: 5px 20px;
+    width: 100%;
+  }
+
   & h2 {
     background: none;
     font-size: var(--h2);
     text-transform: none;
-    line-height: 1.5em;
+
+    @media (width < 768px) {
+      font-size: var(--h3);
+    }
   }
 
   & p {
