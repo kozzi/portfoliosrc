@@ -92,6 +92,9 @@ const SnappingPage = (props) =>
       </div>
     </div>
 
+    <div className={s.backLink}>
+      <Link to="/work">&#8592; Return to portfolio</Link>
+    </div>
   </Layout>
 ;
 

@@ -126,6 +126,9 @@ const SwitchingPage = (props) =>
       <li>When we should and shouldn't show "drop" feedback, and what that feedback looks like (there's actually a subtly different animation between a "quick swipe" and a more "deliberate swipe" to make the "quick swipe" less jarring and the "deliberate swipe" more useful)</li>
     </ul>
 
+    <div className={s.backLink}>
+      <Link to="/work">&#8592; Return to portfolio</Link>
+    </div>
   </Layout>
 ;
 

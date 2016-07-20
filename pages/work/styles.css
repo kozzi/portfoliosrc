@@ -42,3 +42,22 @@
     border: 0;
   }
 }
+
+.backLink {
+  text-align: center;
+  margin-top: 50px;
+
+  & a {
+    background: var(--blue);
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+    &:hover {
+      background: var(--dark-blue);
+    }
+  }
+}
