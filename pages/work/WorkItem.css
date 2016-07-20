@@ -34,6 +34,10 @@
     &:hover {
       background: var(--blue);
       color: #fff;
+
+      & p {
+        color: var(--blue-grey);
+      }
     }
   }
 }
@@ -51,7 +55,7 @@
   }
 
   & p {
-    color: var(--blue-grey);
+    color: var(--dark-grey);
     font-size: var(--h5);
   }
 }
