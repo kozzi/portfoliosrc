@@ -11,7 +11,7 @@ I hold a bachelor's degree from the [Software Engineering](https://uwaterloo.ca/
 My engineering background not only helps me communicate effectively with developers, it also lets me build the product myself, which I love! I am not afraid to dig into a codebase to ship features and fix bugs, and I take pride knowing I can do those things properly.
 
 ## Product Manager
-For several years, I worked in Seattle as user experience PM at [Microsoft](http://microsoft.com), where I was responsible for designing and shipping large user-facing products.
+For several years, I worked in Seattle as user experience PM at [Microsoft](http://microsoft.com), where I was responsible for designing and shipping features in large user-facing products.
 
 I understand what it takes to collaborate with a team of developers, testers, designers, user researchers, and marketing to ship something. I understand what it means to advocate for our users. I understand prioritization. I understand that, sometimes, you have to make difficult tradeoffs. I understand storytelling is a big part of shipping.
 

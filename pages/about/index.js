@@ -14,9 +14,9 @@ import QuickFacts from './QuickFacts';
 import Heart from '../../components/Heart';
 import s from './styles.css';
 import { html } from './index.md';
-import rainierImage from '../../static/images/rainier-ladder.jpg';
-import stpImage from '../../static/images/stp.jpg';
-import calligraphyImage from '../../static/images/calligraphy.jpg';
+import rainierImage from './rainier-ladder.jpg';
+import stpImage from './stp.jpg';
+import calligraphyImage from './calligraphy.jpg';
 
 const AboutPage = (props) =>
   <Layout {...props}>
