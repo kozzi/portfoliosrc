@@ -46,8 +46,8 @@
 .submitButton {
   width: 100%;
   display: block;
-  background: var(--blue);
-  color: var(--light-grey);
+  background: var(--button-bgcolor);
+  color: var(--button-color);
   border: none;
   box-shadow: none;
   transition: 0.3s all;
@@ -56,7 +56,7 @@
   cursor: pointer;
 
   &:hover {
-    background: var(--yellow);
-    color: var(--blue);
+    background: var(--button-hover-bgcolor);
+    color: var(--button-hover-color);
   }
 }

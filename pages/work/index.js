@@ -14,7 +14,7 @@ const WorkPage = (props) =>
       <p>Illustration, YouTube channel design</p>
     </WorkItem>
     <WorkItem projectPath="/work/pawnda" heroImagePath={pawndaImage}>
-      <h2>Kalashnikov Pawn-da</h2>
+      <h2>Pawn-da</h2>
       <p>Illustration, YouTube channel design</p>
     </WorkItem>
     <WorkItem projectPath="/work/dewey" heroImagePath={deweyImage}>

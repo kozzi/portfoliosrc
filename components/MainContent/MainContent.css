@@ -29,7 +29,7 @@
     line-height: 1.5em;
 
     & a {
-      color: var(--blue);
+      color: var(--link-color);
       font-weight: bold;
       text-decoration: none;
       transition: 0.3s all;
@@ -37,8 +37,8 @@
       &:hover,
       &:focus,
       &:active {
-        color: var(--black-blue);
-        background: var(--yellow);
+        color: var(--link-hover-color);
+        background: var(--link-hover-bgcolor);
       }
     }
   }

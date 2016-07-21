@@ -82,20 +82,15 @@ p.more {
   margin: 40px 0;
 
   & a {
-    background: var(--blue);
-    color: var(--light-grey);
-    font-size: var(--h3);
-    padding: 5px 10px;
+    background: var(--button-bgcolor);
+    color: var(--button-color);
+    padding: var(--button-padding);
 
     &:hover,
     &:focus,
     &:active {
-      background: var(--yellow);
-      color: var(--black-blue);
-    }
-
-    &::before {
-      content: none;
+      background: var(--button-hover-bgcolor);
+      color: var(--button-hover-color);
     }
   }
 }

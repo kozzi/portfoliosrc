@@ -48,16 +48,19 @@
   margin-top: 50px;
 
   & a {
-    background: var(--blue);
-    color: #fff;
-    padding: 5px 10px;
+    background: var(--button-bgcolor);
+    color: var(--button-color);
+    padding: var(--button-padding);
     text-decoration: none;
     transition-property: background;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 
-    &:hover {
-      background: var(--dark-blue);
+    &:hover,
+    &:active,
+    &:focus {
+      background: var(--button-hover-bgcolor);
+      color: var(--button-hover-color);
     }
   }
 }

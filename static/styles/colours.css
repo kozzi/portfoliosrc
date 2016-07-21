@@ -8,4 +8,13 @@
   --yellow: #f4e96b;
 
   --blue-rgba: rgba(82, 126, 167, 0);
+
+  --link-color: var(--blue);
+  --link-hover-color: var(--dark-blue);
+  --link-hover-bgcolor: var(--yellow);
+
+  --button-color: var(--light-grey);
+  --button-bgcolor: var(--blue);
+  --button-hover-color: var(--link-hover-color);
+  --button-hover-bgcolor: var(--link-hover-bgcolor);
 }
