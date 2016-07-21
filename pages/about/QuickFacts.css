@@ -4,8 +4,8 @@
 .quickFacts {
   float: right;
   width: 200px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   background: var(--black-blue);
   color: var(--dark-grey);
