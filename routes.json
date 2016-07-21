@@ -37,5 +37,9 @@
   {
     "path": "/work/snapping",
     "page": "./pages/work/snapping"
+  },
+  {
+    "path": "/contact",
+    "page": "./pages/contact"
   }
 ]

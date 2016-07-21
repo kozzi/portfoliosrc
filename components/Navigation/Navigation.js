@@ -25,7 +25,7 @@ const Navigation = (props) => {
       <ul>
         <li><Link to="/about" className={linkClass}>About</Link></li>
         <li><Link to="/work" className={linkClass}>Work</Link></li>
-        <li><Link to="/Contact" className={linkClass}>Contact</Link></li>
+        <li><Link to="/contact" className={linkClass}>Contact</Link></li>
       </ul>
     </nav>
   );

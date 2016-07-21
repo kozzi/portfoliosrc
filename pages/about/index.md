@@ -20,7 +20,7 @@ In one word: Learning!
 
 I love learning new things, and improving my skills in all three areas above. It sounds incredibly cliche, but I like dipping my toes in a little bit of everything. You can see evidence of this in my work :)
 
-If you are looking for someone who is *relentless* about learning new things, or need somebody who prides herself in being a Jill of all trades, let's chat over <strike>coffee</strike> bubble tea!
+If you are looking for someone who is *relentless* about learning new things, or need somebody who prides herself in being a Jill of all trades, let's [chat](/contact) over <strike>coffee</strike> bubble tea!
 
 ## In my spare time...
 ... I love climbing, cycling, practicing calligraphy, and (watching) chess. 
