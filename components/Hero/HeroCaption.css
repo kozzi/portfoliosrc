@@ -4,12 +4,12 @@
 .caption {
   color: var(--light-grey);
   font-size: var(--tiny-text);
-  font-weight: lighter;
+  font-weight: normal;
   text-align: center;
   opacity: 0.6;
   position: fixed;
   top: 60%;
-  right: 20px;
+  right: 10px;
   width: 80px;
 
   @media (width < 768px) {
