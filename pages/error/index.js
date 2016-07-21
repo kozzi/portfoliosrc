@@ -34,6 +34,7 @@ class ErrorPage extends React.Component {
       ['404', 'Page not found'] :
       ['Error', 'Oups, something went wrong'];
 
+    console.log(this.props.error);
     return (
       <div className={s.container}>
         <main className={s.content}>
