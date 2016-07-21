@@ -1,0 +1,22 @@
+@import '../../static/styles/vars.css';
+
+.tools {
+  margin-top: var(--index-section-margin-bottom);
+  margin-bottom: var(--index-section-margin-bottom);
+}
+
+.tool {
+  max-width: 70px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+
+  & img {
+    max-width: 100%;
+  }
+
+  & p {
+    font-size: var(--tiny-text);
+    text-transform: uppercase;
+  }
+}

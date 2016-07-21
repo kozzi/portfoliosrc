@@ -10,17 +10,18 @@
 
 import React from 'react';
 import IndexLayout from '../../components/IndexLayout';
+import Link from '../../components/Link';
 import AboutMe from './AboutMe';
 import FeaturedWork from './FeaturedWork';
 import WhatIDo from './WhatIDo';
-import Tools from './Tools';
 
 const HomePage = (props) =>
   <IndexLayout {...props}>
     <AboutMe />
     <FeaturedWork />
     <WhatIDo />
-    <Tools />
+    <h1>Get in touch!</h1>
+    <p>I'd love to hear from you! Find out how you can reach me <Link to="/contact">here</Link>.</p>
   </IndexLayout>
 ;
 

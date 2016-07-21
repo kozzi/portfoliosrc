@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import WorkItem from './WorkItem';
+import Tools from './Tools';
 import scandiImage from './scandi/hero2.png';
 import pawndaImage from './pawnda/hero.png';
 import deweyImage from './dewey/hero.jpg';
@@ -29,7 +30,7 @@ const WorkPage = (props) =>
       <h2>Snapping</h2>
       <p>Interaction design, Product management, Design guideline development</p>
     </WorkItem>
-
+    <Tools />
   </Layout>
 ;
 
