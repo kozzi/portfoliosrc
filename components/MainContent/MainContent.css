@@ -17,14 +17,9 @@
   margin: 0 auto;
 
   & h1 {
-    display: table;
-    padding: 10px 20px;
-    background: var(--yellow);
-    text-transform: uppercase;
     font-size: var(--h1);
 
     @media (width < 500px) {
-      padding: 5px 10px;
       font-size: var(--h2);
     }
   }
@@ -37,39 +32,13 @@
       color: var(--blue);
       font-weight: bold;
       text-decoration: none;
-
-      /** Needed for color animation on hover */
-      transition-duration: 0.3s;
-      transition-property: background, color;
-      transition-timing-function: ease-out;
-      display: inline-block;
-      position: relative;
-      overflow: hidden;
-      vertical-align: middle;
-
-      &::before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        right: 50%;
-        bottom: 0;
-        background: var(--dark-blue);
-        height: 2px;
-        transition-property: left right;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-out;
-      }
+      transition: 0.3s all;
 
       &:hover,
       &:focus,
       &:active {
         color: var(--dark-blue);
-        background: var(--blue-grey);
-
-        &::before {
-          left: 0;
-          right: 0;
-        }
+        background: var(--yellow);
       }
     }
   }

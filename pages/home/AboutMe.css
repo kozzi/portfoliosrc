@@ -69,7 +69,7 @@
   box-shadow: 0 0 10px -4px var(--dark-grey);
   width: 230px;
   float: right;
-  margin: 35px;
+  margin: 100px 0 35px 35px;
 
   @media (width < 768px) {
     width: 60%;
@@ -79,6 +79,8 @@
 }
 
 p.more {
+  margin: 40px 0;
+
   & a {
     background: var(--blue);
     color: var(--light-grey);
@@ -88,8 +90,8 @@ p.more {
     &:hover,
     &:focus,
     &:active {
-      background: var(--black-blue);
-      color: var(--light-grey);
+      background: var(--yellow);
+      color: var(--blue);
     }
 
     &::before {

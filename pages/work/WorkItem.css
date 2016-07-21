@@ -20,8 +20,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #fff;
-    color: var(--blue);
+    background: var(--blue);
+    color: var(--light-grey);
     transition-property: background;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
@@ -47,15 +47,15 @@
     }
 
     &:hover {
-      background: var(--blue);
-      color: #fff;
+      background: var(--yellow);
+      color: var(--blue);
 
       & img {
         filter: brightness(1.05);
       }
 
       & p {
-        color: var(--blue-grey);
+        color: var(--dark-grey);
       }
     }
   }
@@ -88,7 +88,7 @@
   }
 
   & p {
-    color: var(--dark-grey);
+    color: var(--blue-grey);
     font-size: var(--h5);
   }
 }

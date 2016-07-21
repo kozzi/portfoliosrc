@@ -15,10 +15,6 @@
 .contactFormField {
   width: 100%;
   margin: 20px 0;
-
-  & label {
-    font-size: var(--h5);
-  }
 }
 
 .requiredField {
@@ -51,7 +47,7 @@
   width: 100%;
   display: block;
   background: var(--blue);
-  color: #fff;
+  color: var(--light-grey);
   border: none;
   box-shadow: none;
   transition: 0.3s all;
@@ -60,6 +56,7 @@
   cursor: pointer;
 
   &:hover {
-    background: var(--dark-blue);
+    background: var(--yellow);
+    color: var(--blue);
   }
 }

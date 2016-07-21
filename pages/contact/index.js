@@ -5,7 +5,7 @@ import s from './styles.css';
 
 const ContactPage = (props) =>
   <Layout {...props}>
-    <h1>Get in touch</h1>
+    <h1>Get in touch!</h1>
 
     <div className={s.blurb}>
       <p>Feel free to reach out if you have freelance inquiries, need advice, want project feedback, or simply just want to grab <a href="https://en.wikipedia.org/wiki/Bubble_tea">bubble tea</a> together! :)</p>

@@ -50,7 +50,6 @@
 
   &:hover {
     color: var(--dark-blue);
-    background: var(--blue-grey);
   }
 
   &::before {

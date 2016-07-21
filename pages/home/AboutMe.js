@@ -6,14 +6,13 @@ import profileImage from '../../static/images/profile2.jpg';
 
 const AboutMe = () =>
   <section className={s.aboutMe}>
-    <h1>About</h1>
     <img src={profileImage} alt="Charing Wong" className={s.profile} />
-    <h2>Hi, I'm Charing!
+    <h1>Hi, I'm Charing!
       <span className={s.asterisk}>
         *
         <em>It rhymes with 'bling'!</em>
       </span>
-    </h2>
+    </h1>
 
     <p>
       I design user experiences, and I make them real with code.
