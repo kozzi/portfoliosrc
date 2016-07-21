@@ -3,3 +3,19 @@
 .featuredWork {
   margin-bottom: var(--index-section-margin-bottom);
 }
+
+.more {
+  margin: 40px 0;
+  text-align: right;
+
+  & a {
+    padding: var(--button-padding);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: var(--button-hover-bgcolor);
+      color: var(--button-hover-color);
+    }
+  }
+}

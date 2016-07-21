@@ -18,6 +18,8 @@
 
   & h1 {
     font-size: var(--h1);
+    text-align: left;
+    color: var(--dark-blue);
 
     @media (width < 500px) {
       font-size: var(--h2);
