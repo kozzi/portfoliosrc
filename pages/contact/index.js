@@ -12,7 +12,7 @@ const ContactPage = (props) =>
 
       <p>The easiest way to get in touch is to tweet at me <a href="http://twitter.com/kozzi">@kozzi</a>!</p>
 
-      <p>If Twitter's not your thing, you can also email me directly, or use the form here.</p>
+      <p>If Twitter's not your thing, you can email me directly, or use the form here.</p>
 
       <p><a href="mailto:hi@charingwong.com">hi@charingwong.com</a></p>
     </div>

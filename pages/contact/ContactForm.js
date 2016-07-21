@@ -80,21 +80,58 @@ class ContactForm extends React.Component {
           <input type="text" name="_gotcha" style={{ display: 'none' }} />
           <div className={s.contactFormField}>
             <label className={s.requiredField}>Name:</label>
-            <input type="text" name="name" onChange={this.onChange.name} value={this.state.name} required disabled={this.state.disabled} />
+            <input
+              type="text"
+              name="name"
+              onChange={this.onChange.name}
+              value={this.state.name}
+              required
+              disabled={this.state.disabled}
+              className={s.textField}
+            />
           </div>
           <div className={s.contactFormField}>
             <label className={s.requiredField}>Email:</label>
-            <input type="email" name="replyto" onChange={this.onChange.email} value={this.state.email} required disabled={this.state.disabled} />
+            <input
+              type="email"
+              name="replyto"
+              onChange={this.onChange.email}
+              value={this.state.email}
+              required
+              disabled={this.state.disabled}
+              className={s.textField}
+            />
           </div>
           <div className={s.contactFormField}>
             <label className={s.requiredField}>Subject:</label>
-            <input type="text" name="_subject" onChange={this.onChange.subject} value={this.state.subject} required disabled={this.state.disabled} />
+            <input
+              type="text"
+              name="_subject"
+              onChange={this.onChange.subject}
+              value={this.state.subject}
+              required
+              disabled={this.state.disabled}
+              className={s.textField}
+            />
           </div>
           <div className={s.contactFormField}>
             <label className={s.requiredField}>Message:</label>
-            <textarea name="message" onChange={this.onChange.message} value={this.state.message} required disabled={this.state.disabled}></textarea>
+            <textarea
+              name="message"
+              onChange={this.onChange.message}
+              value={this.state.message}
+              required
+              disabled={this.state.disabled}
+              className={s.textArea}
+            >
+            </textarea>
           </div>
-          <input type="submit" value={buttonString} disabled={this.state.disabled} />
+          <input
+            type="submit"
+            value={buttonString}
+            disabled={this.state.disabled}
+            className={s.submitButton}
+          />
         </form>
         <p className={s.contactFormError} style={errorStyle}>Yikes, a problem occurred while sending your message. Please try again shortly.</p>
         <p className={s.contactFormSuccess} style={successStyle}>Thanks for your message! I'll get back to you as soon as possible!</p>

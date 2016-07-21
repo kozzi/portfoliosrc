@@ -1,0 +1,65 @@
+@import '../../static/styles/colours.css';
+@import '../../static/styles/vars.css';
+
+.form {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 45%;
+
+  @media (width <= 768px) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.contactFormField {
+  width: 100%;
+  margin: 20px 0;
+
+  & label {
+    font-size: var(--h5);
+  }
+}
+
+.requiredField {
+  &::after {
+    content: '*';
+    color: var(--blue);
+  }
+}
+
+.textField,
+.textArea {
+  width: 100%;
+  display: block;
+  background: #fff;
+  color: var(--dark-blue);
+  font-size: var(--h4);
+  border: 1px solid var(--dark-grey);
+  box-shadow: none;
+  transition: 0.3s all;
+  margin: 0.2em 0;
+  padding: 0.8em 0.5em;
+}
+
+.textArea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.submitButton {
+  width: 100%;
+  display: block;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  transition: 0.3s all;
+  margin: 0.5em 0;
+  padding: 0.8em 0.5em;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--dark-blue);
+  }
+}

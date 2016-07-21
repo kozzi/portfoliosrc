@@ -1,4 +1,10 @@
 .blurb {
-  width: 50%;
+  width: 40%;
   float: left;
+
+  @media (width <= 768px) {
+    width: 100%;
+    float: none;
+    display: block;
+  }
 }
