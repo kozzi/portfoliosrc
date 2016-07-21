@@ -6,13 +6,13 @@ import Hero from '../Hero';
 import Title from '../Title';
 import Snippet from '../Snippet';
 import s from '../styles.css';
-import heroImage from './hero.png';
+import heroImage from './hero.jpg';
 import card from './card.jpg';
 import sketch1 from './sketch1.jpg';
 import sketch2 from './sketch2.jpg';
 import sketch3 from './sketch3.jpg';
 import youtube from './youtube.jpg';
-import youtube2 from './youtube2.png';
+import youtube2 from './youtube2.jpg';
 
 const PawndaPage = (props) =>
   <Layout {...props}>

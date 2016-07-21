@@ -5,13 +5,13 @@ import Hero from '../Hero';
 import Title from '../Title';
 import Snippet from '../Snippet';
 import s from '../styles.css';
-import heroImage from './hero2.png';
+import heroImage from './hero.jpg';
 import sketch1 from './sketch1.jpg';
 import sketch2 from './sketch2.jpg';
 import sketch3 from './sketch3.jpg';
 import sketch4 from './sketch4.jpg';
-import dark1 from './dark1.png';
-import dark2 from './dark2.png';
+import dark1 from './dark1.jpg';
+import dark2 from './dark2.jpg';
 
 const ScandiPage = (props) =>
   <Layout {...props}>

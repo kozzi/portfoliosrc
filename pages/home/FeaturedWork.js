@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '../../components/Link';
 import WorkItem from '../work/WorkItem';
 import s from './FeaturedWork.css';
-import scandiImage from '../work/scandi/hero2.png';
+import scandiImage from '../work/scandi/hero.jpg';
 import deweyImage from '../work/dewey/hero.jpg';
 
 const FeaturedWork = () =>
