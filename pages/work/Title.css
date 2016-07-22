@@ -27,5 +27,10 @@
     @media (width <= 768px) {
       text-align: center;
     }
+
+    @media (width <= 768px) {
+      margin-top: 0;
+      font-size: var(--h2);
+    }
   }
 }

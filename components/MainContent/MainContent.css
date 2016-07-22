@@ -9,6 +9,7 @@
 
   @media (width < 500px) {
     padding: var(--page-side-padding-small);
+    padding-bottom: var(--page-side-padding);
   }
 }
 
