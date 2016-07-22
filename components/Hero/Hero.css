@@ -70,4 +70,8 @@
       letter-spacing: 1px;
     }
   }
+
+  & span {
+    color: var(--yellow);
+  }
 }

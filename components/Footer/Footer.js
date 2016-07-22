@@ -1,4 +1,5 @@
 import React from 'react';
+import Heart from '../Heart';
 import s from './Footer.css';
 
 const Footer = () =>
@@ -35,7 +36,7 @@ const Footer = () =>
         Copyright &copy; 2016 Charing Wong. All rights reserved.
       </p>
       <p>
-        Made with &hearts; using <a href="http://facebook.github.io/react" target="_blank">React</a>, <a href="https://github.com/css-modules/css-modules" target="_blank">CSS Modules</a> and <a href="http://webpack.github.io" target="_blank">Webpack</a>, among other things. Hosted on <a href="http://pages.github.com">Github pages</a>.
+        Made with <Heart /> using <a href="http://facebook.github.io/react" target="_blank">React</a>, <a href="https://github.com/css-modules/css-modules" target="_blank">CSS Modules</a> and <a href="http://webpack.github.io" target="_blank">Webpack</a>, among other things. Hosted on <a href="http://pages.github.com">Github pages</a>.
       </p>
     </div>
   </footer>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Heart from '../Heart';
 import HeroCaption from './HeroCaption';
 import s from './Hero.css';
 import heroImage from './hero-30.jpg';
@@ -20,7 +21,7 @@ const Hero = (props) => {
 
         <div className={s.tagline}>
           <p>I design & code. I climb mountains for fun.</p>
-          <p>Hello from Toronto Canada, eh &hearts;</p>
+          <p>Hello from Toronto Canada, eh <Heart /></p>
         </div>
       </div>
     </div>
