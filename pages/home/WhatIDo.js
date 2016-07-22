@@ -2,7 +2,7 @@ import React from 'react';
 import s from './WhatIDo.css';
 import webDev from '../../static/images/web.png';
 import productDesign from '../../static/images/product.svg';
-import illustration from '../../static/images/illustration.svg';
+import illustration from '../../static/images/illustration.png';
 
 const WhatIDo = () =>
   <section className={s.whatIDo}>
