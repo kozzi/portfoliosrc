@@ -35,7 +35,7 @@ const DeweyPage = (props) =>
 
     <p>Dewey was created out of frustration for a user flow I find myself repeating over and over again. After all, design is about solving problems :)</p>
 
-    <p>I love borrowing Kindle ebooks from <a href="http://spl.org">Seattle Public Library (SPL)</a>. But I also love browsing physical bookstores when deciding what I want to read.</p>
+    <p>I love borrowing Kindle ebooks from <a href="http://spl.org">Seattle Public Library (SPL)</a>. But I also love browsing <em>physical</em> bookstores when deciding what I want to read.</p>
 
     <p>It was pretty frustrating that, whenever I find a physical book in a bookstore that I was interested in, I had to <em>manually</em> pull up the mobile-UNfriendly SPL website on my phone, type in the book title, filter the results by ebook, log in, and put a hold on the title on my account.</p>
 
@@ -64,8 +64,8 @@ const DeweyPage = (props) =>
 
     <ol>
       <li><strong>Progress:</strong> It's always super encouraging to see progress! Any progress at all! :) When you break something down into smaller pieces, naturally, you will be able to get something working faster, even if it's just some text printed in the console to show a returned request from Amazon.</li>
-      <li><strong>Separation of concerns:</strong> This is just <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">good engineering practice</a>! Given that a piece of my app requires scaping of the SPL (where I expect the page markup to change often), I wanted to decouple the scraping functionality from the rest of the components so that I can easily maintain and update this independently in the future. Furthermore, should SPL decide to give me access to an API for searching its books, I can easily swap out the scrapper component.</li>
-      <li><strong>Easier debugging:</strong> When you build a giant monolithic piece of software and wait til the very end to test it, if something doesn't work, there are a million reasons for what went wrong. This makes debugging it that much harder. By building it up and testing it in small pieces along the way, it will make narrowing down bugs a lot easier.</li>
+      <li><strong>Separation of concerns:</strong> This is just <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">good engineering practice</a>! Given that a piece of my app requires scaping of the SPL website (where I expect the page markup to change often), I wanted to decouple the scraping functionality from the rest of the components so that I can easily maintain and update this independently in the future. Furthermore, should SPL decide to give me access to an API for searching its books, I can easily swap out the scraper component.</li>
+      <li><strong>Easier debugging:</strong> When you build a giant monolithic piece of software and wait til the very end to test it, if something doesn't work, there are a million reasons for what went wrong. This makes debugging it that much harder. By building it up and testing it in small pieces along the way, it made narrowing down bugs a lot easier.</li>
     </ol>
 
     <h2>Logo design</h2>
@@ -87,6 +87,10 @@ const DeweyPage = (props) =>
     <img src={screenshot2} className={s.halfWidthImage} alt="Screenshot" />
     <img src={screenshot3} className={s.halfWidthImage} alt="Screenshot" />
 
+    <h2>Why is this not in the AppStore??</h2>
+    <p><strong>Short answer:</strong> It probably won't be approved anyway, because of the semi sketchy scraping I'm doing.</p>
+
+    <p><strong>Long answer:</strong> This was created because I had a problem I wanted solved. Hardcoding my library account solved the problem well enough. Creating the ability to generically do it for any account felt like more time and work, for not much additional benefit to me (who is the main "customer"). So I didn't continue to make it AppStore-ready, and spent my time elsewhere :)</p>
     <h2>Languages, frameworks, and tools</h2>
 
     <p>Illustrator, Photoshop, Swift, Git, Cocoapods, XCode, Interface Builder, Amazon Product Advertising API, and a little web scraping ;)</p>

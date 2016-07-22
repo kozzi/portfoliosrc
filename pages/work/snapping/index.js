@@ -50,7 +50,7 @@ const SnappingPage = (props) =>
 
     <p>Should users be allowed to have more than 2 app side by side?</p>
 
-    <p>During these explorations, I noticed there were other flows where the user is also manipulating an app: when switching to a previous app. I wondered if I could use this opportunity to also let the user snap this app side by side with the current one? I thought it was nice way to build on top an existing feature and built a prototype of that!</p>
+    <p>During these explorations, I noticed there were other flows where the user is also manipulating an app: when switching to a previous app (dragging the app from the left edge). I wondered if I could use this opportunity to also let the user snap this app side by side with the current one? At the time, I thought it was cool way to build on top an existing feature (<em>"Oooh! Reducing concepts! How clever!"</em>), and we built a prototype of that.</p>
 
     <img src={whiteboard} className={s.fullWidthImage} alt="Whiteboard brainstorm" />
 
@@ -70,7 +70,7 @@ const SnappingPage = (props) =>
 
     <h2>Shipping design</h2>
 
-    <p>The final shipped design lets user to grab the app on screen, and snap it to the side directly, which is far more intuitive and easy.</p>
+    <p>The final shipped design lets user to grab the app on screen, and snap it to the side directly, which is far more intuitive and easy. (<em>Note: This is still not *perfect* as it competes with another gesture, but that's out of scope of this project. You can ask me more about it person; I can go on forever.</em> )</p>
 
     <div className={s.videoContainer}>
       <div className={s.video}>
@@ -85,7 +85,7 @@ const SnappingPage = (props) =>
 
     <p>As part of building this feature, I was also responsible for producing design guidelines for how apps should think about their snapped states, and the transition in and out of it.</p>
 
-    <p>For this, I produced content and spoke at the <a href="https://channel9.msdn.com/events/Windows-Camp/Windows-8-UX-Fundamentals-Training-Workshop-2012/WUX-006">Windows UX Training workshop</a> in 2012.</p>
+    <p>For this, I produced content and spoke at the <a href="https://channel9.msdn.com/events/Windows-Camp/Windows-8-UX-Fundamentals-Training-Workshop-2012/WUX-006">Windows UX Training workshop</a> in 2012. Below is the recorded presentation.</p>
 
     <div className={s.videoContainer}>
       <div className={s.video}>

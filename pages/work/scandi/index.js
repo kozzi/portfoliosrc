@@ -38,7 +38,7 @@ const ScandiPage = (props) =>
       that the chess master, John Bartholomew, and his followers would <em>get</em>.
       I knew early on I didn't want to draw some generic chess art (cause
       anyone can do that). As a fan and follower myself, I felt like I was in
-      a unique position to take I know about him and his followers, and create
+      a unique position to take what I know about him and his followers, and create
       something fun!
     </p>
 
@@ -52,7 +52,7 @@ const ScandiPage = (props) =>
         It is well-known among John's fans that he loves playing the <a href="https://en.wikipedia.org/wiki/Scandinavian_Defense">Scandinavian Defense</a>. So much so, that his fans call themselves <em>Team Scandi</em>.
       </li>
       <li>
-        <strong>Fins:</strong> John's online handle on online chess sites, and on Twitter, is <em>Fins</em>.
+        <strong>Fins:</strong> John's online handle on online chess sites and on Twitter, is <em>Fins</em>.
       </li>
       <li>
         <strong>Starbucks:</strong> John is a vocal fan of Starbucks, and would frequently tout it on cam.
@@ -90,7 +90,7 @@ const ScandiPage = (props) =>
         <strong>Bullet icon:</strong> Bullet chess is chess played with REALLY fast time controls (i.e. where each side only has 1 minute to make all their moves). Bullet chess videos are on regular rotation on John's channel, and are some of his most entertaining videos due to the speed at which chess is played.
       </li>
       <li>
-        <strong>Berserk icon:</strong> "Berserking" is a feature on popular chess website, lichess.org, where a player takes a risk by choosing to cut their available time in half in order to gain an extra point if they win the game. John does this frequently in his bullet videos, and it's heart-attack-inducing.
+        <strong>Berserk icon:</strong> "Berserking" is a feature on popular chess website, <a href="http://lichess.org">lichess.org</a>, where a player takes a gamble by choosing to cut their available time in half in order to gain an extra point if they win the game. John does this frequently in his bullet videos, and it's heart-attack-inducing.
       </li>
     </ol>
 

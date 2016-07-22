@@ -46,13 +46,13 @@ const PawndaPage = (props) =>
         <strong>Panda:</strong> Because that's Tony's favourite animal :P There's plenty of banter between us about this on Twitter.
       </li>
       <li>
-        <strong>Sicilian/Kalashnikov chess opening:</strong> One of Tony's favourite chess openings. In fact, he published a very comprehensive video series on it on YouTube, and had written an entire book about it.
+        <strong>Sicilian/Kalashnikov chess opening:</strong> One of Tony's favourite chess openings. In fact, he published a very comprehensive video series on it on YouTube, and had written an entire <a href="https://smile.amazon.com/Killer-Sicilian-Fighting-1e4-Kalashnikov/dp/1857446658/">book</a> about it.
       </li>
     </ol>
 
     <h2>Brainstorming</h2>
     <p>
-      The Kalashnikov is a chess opening around gaining central space on the board, and forcing white's knight to the edge of the board (the a3 square specifically), which is not a place you generally want your knight to be. So I played around with these ideas in my sketches.
+      The Kalashnikov is a chess opening around gaining central space on the board, and forcing the white players's knight to the edge of the board (the a3 square specifically), which is not a place you generally want your knight to be. So I played around with these ideas in my sketches.
     </p>
 
     <img src={sketch2} className={s.fullWidthImage} alt="Kalashnikov opening sketches" />

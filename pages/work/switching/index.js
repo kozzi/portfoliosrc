@@ -38,7 +38,7 @@ const SwitchingPage = (props) =>
     <p>As I explored this problem further, I realize that multi-tasking flows can be broken down into two types:</p>
 
     <ul>
-      <li><strong>"Serial" multitasking:</strong> Where the user has one app on the screen at a time, but they flip between tasks in order (hence, in "serial")</li>
+      <li><strong>"Serial" multitasking:</strong> Where the user has one app on the screen at a time, but they flip between tasks in order (hence, "serial")</li>
       <li><strong>"Side by side" multitasking:</strong> Where the user can see and use multiple things side by side, simultaneously.</li>
     </ul>
 
@@ -57,9 +57,9 @@ const SwitchingPage = (props) =>
     <p>I also worked with some assumptions to make progress (based on some existing data on alt-tab usage):</p>
 
     <ul>
-      <li>Going back to the most recent app is the most common action by the user. That is, there is <em>diminishing frequency</em> to going back to your 2nd/3rd/nth-most recently used app because &mdash; I hypothesized &mdash; users don't actually remember what's further along in their back stack. And they really shouldn't need to.</li>
+      <li>Going back to the most recent app is the most common action by the user. That is, there is <em>diminishing frequency</em> to going back to your 2nd/3rd/<em>n</em>th-most recently used app because &mdash; I hypothesized &mdash; users don't actually remember what's further along in their back stack. And they really shouldn't need to.</li>
 
-      <li>I believe the natural behaviour for the user is, if the user is not certain that their app is back there and near the top (i.e. they haven't been switching back and forth between these apps and therefore have them top of mind), users will use the "home screen" to do the switching because that flow is predictable. There is nothing wrong with using the "home screen" to switch.</li>
+      <li>I believe the natural behaviour for the user is this: if the user is not certain that their app is back there and near the top (i.e. they haven't been switching back and forth between these apps and therefore have them top of mind), users will use the "home screen" to do the switching because that flow is predictable (note: they're not really consciously thinking about this; it's just something they <em>do</em>). There is nothing wrong with using the "home screen" to switch.</li>
     </ul>
 
     <h2>Sketching and prototyping</h2>
@@ -115,7 +115,7 @@ const SwitchingPage = (props) =>
 
     <p>While I allow users to keep switching to older apps, I really focused on making sure switching to the most recent app is extremely fast (and perhaps even a bit fun and playful!). This meant removing the concept of having a visual and explicit "switching mode" that user must enter and exit in the process of switching.</p>
 
-    <p>Instead of forcing the user to first enter some sort of "switch mode" to select a recent app they want to go to, I made switching into one user action: a swipe from the right edge. If the first app swiped in is the one the user wanted to switch to (according to testing & data, it was), we are done. The user can start using the app immediately. There's no need for the user to select anything and exit a mode.</p>
+    <p>Instead of forcing the user to first enter some sort of "switch mode" to select a recent app they want to go to, I rolled "switching to the last app" into one user action: a swipe from the right edge. If the first app swiped in, is the one the user wanted to switch to (according to testing & data, it was), we are done. The user can start using the app immediately. There's no need for the user to select anything and exit a mode.</p>
 
     <h3>Direct manipulation of the app thumbnail</h3>
 
