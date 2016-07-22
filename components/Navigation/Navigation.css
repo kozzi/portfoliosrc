@@ -29,6 +29,10 @@
     text-decoration: none;
     padding: 10px;
 
+    @media (width <= 500px) {
+      padding: 5px;
+    }
+
     /** Override hover.css to make the line a different color and width */
     &::before {
       height: 2px;
